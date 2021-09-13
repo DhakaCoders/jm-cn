@@ -1,3 +1,6 @@
+.contact-form-sec-wrp {
+    padding-bottom: 300px;
+}
 .contact-form-lft {
     width: 33%;
     float: left;
@@ -11,8 +14,11 @@
 .contact-form-info h6 {
     text-transform: uppercase;
     color: #162B39;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     line-height: 1;
+}
+.contact-form-dsc-wrp h6{
+    margin-bottom: 23px;
 }
 .cnt-dtails {
     margin-bottom: 20px;
