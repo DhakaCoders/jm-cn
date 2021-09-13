@@ -16,12 +16,18 @@
 	padding-right: 40px;
 	padding-bottom: 110px;
 }
+.jm-pro-grds ul li:nth-child(4n+1){
+	clear: left;
+}
 
 
 .jm-pro-grd-item{
 	background: #fff;
 	text-align: center;
 	padding: 28px 30px;
+	border-radius: 15px;
+	-webkit-box-shadow: 2px 2px 15px 4px rgba(240,240,240,0.75); 
+	box-shadow: 2px 2px 15px 4px rgba(240,240,240,0.75);
 	position: relative;
 }
 
@@ -64,4 +70,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+
+.jm-load-more-btn{
+	text-align: center;
 }
