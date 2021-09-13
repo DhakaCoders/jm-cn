@@ -237,3 +237,41 @@ ol li::before {
 .jm-con-sec{
 	padding: 50px 0;
 }
+
+
+
+
+/*responsive*/
+
+
+
+@media(max-width: 1399px){
+	.sec-entry-hdr {
+	    padding-bottom: 50px;
+	}
+}
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+	.sec-entry-hdr {
+	    padding-bottom: 40px;
+	}
+	.sec-entry-hdr-title{
+		padding-bottom: 30px;
+	}
+}
+@media(max-width: 757px){
+	.sec-entry-hdr {
+	    padding-bottom: 30px;
+	}
+	.sec-entry-hdr-title{
+		padding-bottom: 25px;
+	}
+	.breadcrumb-sec {
+	    padding: 15px 0;
+	}
+}
+@media(max-width: 575px){
+
+}
