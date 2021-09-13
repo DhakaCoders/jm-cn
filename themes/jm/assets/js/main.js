@@ -225,6 +225,16 @@ google.maps.event.addDomListener(window, 'load', initialize);
   }, false);
 })();
 
+
+/*start of Kashob*/
+
+
+/*start of Shariful*/
+
+
+/*start of Noyon*/
+
+
     new WOW().init();
 
 })(jQuery);

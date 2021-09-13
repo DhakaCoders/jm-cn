@@ -15,7 +15,7 @@ a, a:hover, a:focus, button:hover, button:focus{
 	outline: 0;
 }
 a{
-	color: #00da54;
+	color: #f85700;
 }
 a:hover{
 	color: #f85700;
@@ -32,6 +32,13 @@ body {
 p{
 	line-height: 1.2;
 	margin-bottom: 15px;
+}
+
+strong,b{
+	font-weight: 700;
+}
+i,em{
+	font-style: italic;
 }
 
 input[type=text],
@@ -110,14 +117,16 @@ Containers
 	
 }
 .container-lg{
-
+	max-width: 1670px;
+	width: 100%;
 }
 .container{
-	max-width: 1370px;
+	max-width: 1470px;
 	width: 100%;
 }
 .container-md{
-
+	max-width: 1270px;
+	width: 100%;
 }
 
 .container-sm{
@@ -125,12 +134,7 @@ Containers
 }
 
 
-.page-body-cntlr{
-	max-width: 1920px; 
-	width: 100%;
-	margin: 0 auto;
-	position: relative;
-}
+
 
 .ulc{
 	margin: 0;
@@ -294,6 +298,29 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 }
 
 
+
+/*common button*/
+.fl-red-btn{
+	display: inline-block;
+	vertical-align: baseline;
+	padding: 11px 28px;
+	background: #f85700;
+	color: #fff;
+	border: 2px solid #f85700;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 30px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.fl-red-btn:hover{
+	background: #282526;
+	border-color: #282526;
+	color: #fff;
+}
 
 /*slider break fix*/
 
