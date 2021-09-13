@@ -1,0 +1,113 @@
+.contact-form-lft {
+    width: 29%;
+    float: left;
+    padding-right: 48px;
+}
+.contact-form-rgt {
+    width: 71%;
+    float: right;
+}
+.contact-form-dsc-wrp h6 {
+    text-transform: uppercase;
+    color: #162B39;
+    margin-bottom: 50px;
+    line-height: 1;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
+    margin: 0 -20px;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field {
+    width: 33.333%;
+    float: left;
+    padding: 0 20px;
+    margin-bottom: 31px;
+    position: relative;
+} 
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.FullWidthField {
+    width: 100%;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input {
+    width: 100%;
+    max-width: 100%;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    padding: 15px 15px 16px;
+    padding-right: 40px;
+    color: #777F84;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 0!important;
+    line-height: 1;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container:before {
+    content: "";
+    clear: both;
+    display: table;
+}
+input[type=text], 
+input[type=email], 
+input[type=tel], 
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container label.wpforms-error {
+    display: none;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error label.wpforms-error {
+    display: block;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error label.wpforms-error {
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 2px;
+    position: absolute;
+    top: 6px;
+    right: 13px;
+    color: #D61D1D;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: inherit;
+}
+.contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error label.wpforms-field-label {
+    color: #D61D1D;
+}
+.contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error input.wpforms-error::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #D61D1D!important;
+  opacity: 1;
+}
+.contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error input.wpforms-error::-moz-placeholder { /* Firefox 19+ */
+  color: #D61D1D!important;
+  opacity: 1;
+}
+.contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error input.wpforms-error:-ms-input-placeholder { /* IE 10+ */
+  color: #D61D1D!important;
+  opacity: 1;
+}
+.contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error input.wpforms-error:-moz-placeholder { /* Firefox 18- */
+  color: #D61D1D!important;
+  opacity: 1;
+}
+.contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error textarea.wpforms-error::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #D61D1D!important;
+  opacity: 1;
+}
+.contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error textarea.wpforms-error::-moz-placeholder { /* Firefox 19+ */
+  color: #D61D1D!important;
+  opacity: 1;
+}
+.contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error textarea.wpforms-error:-ms-input-placeholder { /* IE 10+ */
+  color: #D61D1D!important;
+  opacity: 1;
+}
+.contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error textarea.wpforms-error:-moz-placeholder { /* Firefox 18- */
+  color: #D61D1D!important;
+  opacity: 1;
+}
