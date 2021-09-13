@@ -289,6 +289,11 @@ if( $('.wpforms-error').length ){
 
 /*start of Shariful*/
 
+var windowWidth = $(window).width();
+var containerWidth = $('.container').width();
+var containerOffset = (windowWidth - containerWidth);
+var containerOffsetRgt = containerOffset / 2;
+$('.jm-welcome-img-ctlr').css("margin-right", -containerOffsetRgt);
 
 /*start of Noyon*/
   if( $('.hmBnrSlider').length ){
