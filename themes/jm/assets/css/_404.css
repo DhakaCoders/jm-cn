@@ -1,0 +1,49 @@
+.page-404-sec-wrp {
+    padding-bottom: 85px;
+    padding-top: 50px;
+}
+.page-404-dsc-wrp {
+    text-align: center;
+}
+.title-404 {
+    display: inline-block;
+    vertical-align: baseline;
+    padding-bottom: 40px;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.page-404-dsc-wrp span {
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.page-404-dsc-wrp p {
+    margin-bottom: 60px;
+}
+.page-404-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fl-orange-btn {
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 15px;
+    border: 2px solid #f85700;
+    background: #f85700;
+    color: #fff;
+    min-width: 210px;
+}
+.fl-orange-btn:hover{
+    color: #282526;
+    background: transparent;
+    border-color: #282526;
+}
