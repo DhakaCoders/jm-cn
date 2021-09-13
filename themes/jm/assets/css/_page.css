@@ -183,16 +183,16 @@ ol li::before {
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1;
-	color: #010101;
+	color: #f85700;
 	text-decoration: none;
 	text-transform: capitalize;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 }
-.breadcrumb-sec-inr ul li.home a,
-.breadcrumb-sec-inr ul li.home a span{
-	color: #f85700;
+.breadcrumb-sec-inr ul li:last-child a,
+.breadcrumb-sec-inr ul li:last-child span{
+	color: #010101;
 }
 /*.breadcrumb-sec-inr ul li a:hover, 
 .breadcrumb-sec-inr ul li span:hover, 
