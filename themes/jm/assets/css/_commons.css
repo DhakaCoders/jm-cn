@@ -312,6 +312,14 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	font-weight: 700;
 	text-transform: uppercase;
 	border-radius: 30px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.fl-red-btn:hover{
+	background: #282526;
+	border-color: #282526;
+	color: #fff;
 }
 
 /*slider break fix*/
