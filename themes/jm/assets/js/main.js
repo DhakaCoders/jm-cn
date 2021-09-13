@@ -225,6 +225,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
   }, false);
 })();
 
+
   //Hidden Bar Menu Config
   function hiddenBarMenuConfig() {
     var menuWrap = $('.hidden-bar .side-menu');
@@ -270,5 +271,16 @@ google.maps.event.addDomListener(window, 'load', initialize);
       $('.hidden-bar,body').addClass('visible-sidebar');
     });
   }
+
+/*start of Kashob*/
+
+
+/*start of Shariful*/
+
+
+/*start of Noyon*/
+
+
+    new WOW().init();
 
 })(jQuery);
