@@ -76,3 +76,33 @@
 .jm-load-more-btn{
 	text-align: center;
 }
+
+
+
+/*welcome sec*/
+
+.jm-welcome-sec{
+	padding: 90px 0 80px;
+}
+
+.jm-welcome-title{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.jm-welcome-subtitle{
+	margin-bottom: 70px;
+	color: #f85700;
+	text-transform: uppercase;
+}
+
+.jm-welcome-des{
+	display: flex;
+	align-items: center;
+}
+.jm-welcome-lft{
+	width: 60%;
+	padding-right: 55px;
+}
+.jm-welcome-rgt{
+	width: 40%;
+}
