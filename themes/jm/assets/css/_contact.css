@@ -1,17 +1,108 @@
+.contact-form-sec-wrp {
+    padding-bottom: 300px;
+}
 .contact-form-lft {
-    width: 29%;
+    width: 33%;
     float: left;
     padding-right: 48px;
 }
 .contact-form-rgt {
-    width: 71%;
+    width: 67%;
     float: right;
 }
-.contact-form-dsc-wrp h6 {
+.contact-form-dsc-wrp h6,
+.contact-form-info h6 {
     text-transform: uppercase;
     color: #162B39;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     line-height: 1;
+}
+.contact-form-dsc-wrp h6{
+    margin-bottom: 23px;
+}
+.cnt-dtails {
+    margin-bottom: 20px;
+}
+.cnt-dtails a {
+    position: relative;
+    padding-left: 50px;
+    display: inline-block;
+    font-size: 20px;
+    color: #282526;
+}
+.cnt-addres.cnt-dtails a span:hover,
+.cnt-dtails a:hover{
+    color: #f85700;
+}
+.cnt-addres.cnt-dtails a span{
+    color: #282526;
+}
+.cnt-addres.cnt-dtails a{
+    color: #f85700;
+}
+.cnt-addres.cnt-dtails a:hover{
+    color: #282526;
+}
+.cnt-tel.cnt-dtails a:after{
+    position: absolute;
+    content: "";
+    background: url(../images/tel-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 0;
+    height: 23px;
+    width: 31px;
+    background-size: cover;
+    margin-top: 6px;
+}
+.cnt-mail.cnt-dtails a:after{
+    position: absolute;
+    content: "";
+    background: url(../images/mail-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 3px;
+    height: 30px;
+    width: 26px;
+    background-size: cover;
+    margin-top: 0;
+}
+.cnt-tel-2.cnt-dtails a:after{
+    position: absolute;
+    content: "";
+    background: url(../images/tel-icon-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 4px;
+    height: 28px;
+    width: 20px;
+    background-size: cover;
+    margin-top: 7px;
+}
+.cnt-addres.cnt-dtails > a:after{
+    position: absolute;
+    content: "";
+    background: url(../images/location-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 4px;
+    height: 35px;
+    width: 23px;
+    background-size: cover;
+    margin-top: -25px;
+}
+.contact-form-info-cntlr {
+    padding: 50px 30px;
+    -webkit-box-shadow: 2px 2px 15px 4px rgb(240 240 240 / 75%);
+    box-shadow: 2px 2px 15px 4px rgb(240 240 240 / 75%);
+}
+.contact-form-dsc-wrp {
+    padding-left: 38px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 90px;
+    -webkit-box-shadow: 2px 2px 15px 4px rgb(240 240 240 / 75%);
+    box-shadow: 2px 2px 15px 4px rgb(240 240 240 / 75%);
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
     margin: 0 -20px;
@@ -24,8 +115,14 @@
     position: relative;
 } 
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.FullWidthField {
-    width: 100%;
+    width: 100%;   
 }
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.FullWidthField textarea{
+    height: 85px!important;
+    display: block;
+    resize: none;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.FullWidthField textarea,
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input {
     width: 100%;
     max-width: 100%;
@@ -37,7 +134,7 @@
     padding-right: 40px;
     color: #777F84;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 0!important;
     line-height: 1;
     transition: all 0.5s;
@@ -76,19 +173,57 @@ textarea {
     margin-top: 0;
     text-transform: inherit;
 }
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error input::-webkit-input-placeholder { / Chrome/Opera/Safari /
+  text-transform: capitalize !important;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error input::-moz-placeholder { / Firefox 19+ /
+  text-transform: capitalize !important;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error input:-ms-input-placeholder { / IE 10+ /
+  text-transform: capitalize !important;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error input:-moz-placeholder { / Firefox 18- /
+  text-transform: capitalize !important;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input::placeholder,
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea::placeholder{
+    color:#525051!important;
+    opacity:1;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input::-webkit-input-placeholder,
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea::-webkit-input-placeholder{ / Chrome/Opera/Safari /
+    color:#525051!important;
+    opacity:1;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input::-moz-placeholder,
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea::-moz-placeholder{ / Firefox 19+ /
+    color:#525051!important;
+    opacity:1;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:-ms-input-placeholder,
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea:-ms-input-placeholder{ / IE 10+ /
+    color:#525051!important;
+    opacity:1;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:-moz-placeholder,
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea:-moz-placeholder{ / Firefox 18- /
+    color:#525051!important;
+    opacity:1;
+}
+
 .contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error label.wpforms-field-label {
-    color: #D61D1D;
+    color: #525051;
 }
 .contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error input.wpforms-error::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #D61D1D!important;
+  color: #525051!important;
   opacity: 1;
 }
 .contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error input.wpforms-error::-moz-placeholder { /* Firefox 19+ */
-  color: #D61D1D!important;
+  color: #525051!important;
   opacity: 1;
 }
 .contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error input.wpforms-error:-ms-input-placeholder { /* IE 10+ */
-  color: #D61D1D!important;
+  color: #525051!important;
   opacity: 1;
 }
 .contect-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error input.wpforms-error:-moz-placeholder { /* Firefox 18- */
