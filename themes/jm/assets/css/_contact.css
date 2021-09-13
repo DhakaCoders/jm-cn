@@ -14,7 +14,65 @@
     margin-bottom: 50px;
     line-height: 1;
 }
-
+.cnt-dtails {
+    margin-bottom: 20px;
+}
+.cnt-dtails a {
+    position: relative;
+    padding-left: 50px;
+    display: inline-block;
+}
+.cnt-tel.cnt-dtails a:after{
+    position: absolute;
+    content: "";
+    background: url(../images/tel-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 0;
+    height: 23px;
+    width: 31px;
+    background-size: cover;
+    margin-top: 6px;
+}
+.cnt-mail.cnt-dtails a:after{
+    position: absolute;
+    content: "";
+    background: url(../images/mail-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 3px;
+    height: 30px;
+    width: 26px;
+    background-size: cover;
+    margin-top: 0;
+}
+.cnt-tel-2.cnt-dtails a:after{
+    position: absolute;
+    content: "";
+    background: url(../images/tel-icon-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 7px;
+    height: 28px;
+    width: 20px;
+    background-size: cover;
+    margin-top: 7px;
+}
+.cnt-addres.cnt-dtails > a:after{
+    position: absolute;
+    content: "";
+    background: url(../images/location-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 4px;
+    height: 35px;
+    width: 23px;
+    background-size: cover;
+    margin-top: -25px;
+}
+.contact-form-info-cntlr {
+    padding: 50px 30px;
+}
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
     margin: 0 -20px;
 }
@@ -26,8 +84,14 @@
     position: relative;
 } 
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.FullWidthField {
-    width: 100%;
+    width: 100%;   
 }
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.FullWidthField textarea{
+    height: 85px!important;
+    display: block;
+    resize: none;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.FullWidthField textarea,
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input {
     width: 100%;
     max-width: 100%;
