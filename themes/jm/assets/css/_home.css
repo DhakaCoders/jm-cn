@@ -53,3 +53,29 @@
 .services-item-desc p:last-of-type{
 	margin-bottom: 0;
 }
+
+
+.brand-sec{
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+.brand-grid{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 -20px;
+}
+.brand-grid-item{
+	padding: 0 20px;
+	width: 25%;
+	margin-bottom: 40px;
+}
+.brand-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.brand-item a{
+	display: inline-block;
+}
