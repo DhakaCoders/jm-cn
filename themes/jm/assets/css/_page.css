@@ -4,16 +4,16 @@
 	padding: 0 20px!important;
 }
 .slick-slider .slick-dots li{
-	width: 16px!important;
-	height: 16px!important;
+	width: 22px!important;
+	height: 22px!important;
 	position: static;
-	background: #E1E1E1!important;
+	background: #e9521d!important;
 	border-radius: 100% 100%!important;
-	margin: 0 8px;
+	margin: 0 7px;
 	padding: 0!important;
 }
 .slick-slider .slick-dots li.slick-active{
-	background: #F3BA4B!important;
+	background: #fff!important;
 }
 .slick-slider .slick-dots li:before,
 .slick-slider .slick-dots li button:before{
@@ -21,8 +21,8 @@
 }
 .slick-slider .slick-dots li button{
 	padding: 0;
-	width: 16px;
-	height: 16px;
+	width: 22px;
+	height: 22px;
 }
 
 .slick-dots li:only-child{ 
