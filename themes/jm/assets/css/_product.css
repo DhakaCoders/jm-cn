@@ -136,7 +136,8 @@
 	.jm-pro-grd-item{
 		padding: 28px 20px;
 	}
-	.jm-pro-grd-sec .fl-red-btn {
+	.jm-pro-grd-sec .fl-red-btn,
+	.jm-related-pro-sec .fl-red-btn {
 	    font-size: 13px;
 	}
 }
