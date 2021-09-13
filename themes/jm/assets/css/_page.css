@@ -211,6 +211,9 @@ ol li::before {
 
 /* section entry header */
 
+.sec-entry-hdr{
+	padding-bottom: 60px;
+}
 .sec-entry-hdr-title{
 	text-align: center;
 	text-transform: capitalize;
