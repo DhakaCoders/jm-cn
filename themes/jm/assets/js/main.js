@@ -291,7 +291,18 @@ if( $('.wpforms-error').length ){
 
 
 /*start of Noyon*/
-
+  if( $('.hmBnrSlider').length ){
+    $('.hmBnrSlider').slick({
+      dots: true,
+      infinite: false,
+      autoplay: false,
+      arrows: false,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+}
 
     new WOW().init();
 
