@@ -303,11 +303,11 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 .fl-red-btn{
 	display: inline-block;
 	vertical-align: baseline;
-	padding: 11px 28px;
+	padding: 10px 15px;
 	background: #f85700;
 	color: #fff;
 	border: 2px solid #f85700;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1;
 	font-weight: 700;
 	text-transform: uppercase;
