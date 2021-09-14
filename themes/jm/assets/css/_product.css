@@ -35,6 +35,9 @@
 	margin-bottom: 20px;
 	max-height: 242px;
 	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	overflow: hidden;
 	position: relative;
 }
@@ -143,11 +146,19 @@
 		padding-right: 20px;
 		padding-bottom: 80px;
 	}
-	.jm-pro-grd-sec .fl-red-btn{
+	.jm-pro-grd-sec .fl-red-btn,
+	.jm-related-pro-sec .fl-red-btn{
 		font-size: 14px;
 	}
 	.jm-welcome-sec {
 	    padding: 80px 0 70px;
+	}
+	.jm-pro-tag{
+		margin-right: -27px;
+	}
+	.jm-pro-tag strong{
+		width: 55px;
+		height: 55px;
 	}
 }
 

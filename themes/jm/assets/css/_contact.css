@@ -407,8 +407,8 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
     color: #fff!important;
 }
 
-.contact-select.contact-select-down-icon .select2.select2-container.select2-container--default.select2-container--below.select2-container--focus{
-    width: 100;
+.wpforms-field .contact-select.contact-select-down-icon .select2.select2-container.select2-container--default{
+    width: 100!important;
 }
 
 
