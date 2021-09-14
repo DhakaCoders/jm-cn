@@ -577,6 +577,9 @@ span.select2.select2-container.select2-container--default {
     .cnt-addres.cnt-dtails > span{
         font-size: 18px!important;
     }
+    .cnt-tel-2.cnt-dtails a:after{
+        margin-top: 3px;
+    }
 }
 @media (max-width: 767px){
     .contact-form-sec-wrp {
