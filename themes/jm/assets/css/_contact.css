@@ -80,20 +80,26 @@
     background-size: cover;
     margin-top: 1px;
 }
-.cnt-addres.cnt-dtails > span > a:first-child:after{
+.cnt-addres.cnt-dtails > span:after{
     position: absolute;
     content: "";
     background: url(../images/location-icon.png);
     background-repeat: no-repeat;
     background-position: center center;
     left: 4px;
+    top: 0;
     height: 35px;
     width: 23px;
     background-size: cover;
-    margin-top: -30px;
+    margin-top: 3px;
 }
 .cnt-addres.cnt-dtails > span{
     display: inline-block;
+    position: relative;
+    padding-left: 50px;
+}
+.cnt-addres.cnt-dtails > span > a{
+    padding-left: 0;
 }
 .cnt-addres.cnt-dtails > span > a:last-child{
     padding: 0;
