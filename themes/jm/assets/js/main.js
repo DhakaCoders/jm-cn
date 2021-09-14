@@ -293,7 +293,19 @@ var windowWidth = $(window).width();
 var containerWidth = $('.container').width();
 var containerOffset = (windowWidth - containerWidth);
 var containerOffsetRgt = containerOffset / 2;
-$('.jm-welcome-img-ctlr').css("margin-right", -containerOffsetRgt);
+var content = $('.jm-welcome-rgt').width();
+var imgWidth = (containerOffsetRgt + content + 15);
+$('.jm-welcome-rgt-img-ctlr').css("width", imgWidth);
+
+$(window).resize(function(){
+  var windowWidth = $(window).width();
+  var containerWidth = $('.container').width();
+  var containerOffset = (windowWidth - containerWidth);
+  var containerOffsetRgt = containerOffset / 2;
+  var content = $('.jm-welcome-rgt').width();
+  var imgWidth = (containerOffsetRgt + content + 15);
+  $('.jm-welcome-rgt-img-ctlr').css("width", imgWidth);
+});
 
 /*start of Noyon*/
   if( $('.hmBnrSlider').length ){
