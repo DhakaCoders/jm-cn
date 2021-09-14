@@ -129,9 +129,12 @@
 }
 .services-item-img{
 	margin-bottom: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .services-item-img img{
-	min-height: 85px;
+	max-height: 85px;
 	width: auto;
 }
 .fl-h6.services-item-title{

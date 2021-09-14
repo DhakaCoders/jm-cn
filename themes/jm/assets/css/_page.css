@@ -11,6 +11,12 @@
 	border-radius: 100% 100%!important;
 	margin: 0 7px;
 	padding: 0!important;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.slick-slider .slick-dots li:hover{
+	background: #fff!important;
 }
 .slick-slider .slick-dots li.slick-active{
 	background: #fff!important;
