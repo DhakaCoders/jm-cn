@@ -87,13 +87,13 @@
 	z-index:5;
 }
 
-.main-header .upper-right:before{
-	content: '';
-	position: absolute;
-	left: 0;
-	top: -5px;
-	width: 2000px;
-	border-top: 5px solid #f85700;
+.main-header .upper-right:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    width: 105%;
+    border-top: 5px solid #f85700;
+    right: -50px;
 }
 
 .main-header .top-info{
