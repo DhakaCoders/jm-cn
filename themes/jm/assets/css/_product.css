@@ -103,7 +103,7 @@
 }
 .jm-welcome-rgt-img-ctlr{
 	position: absolute;
-	top: 30%;
+	/*top: 0%;*/
 	right: 0;
 }
 .jm-welcome-rgt-img{
