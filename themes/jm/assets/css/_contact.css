@@ -405,7 +405,7 @@ body .select2-dropdown {
 ul.select2-results__options li {
     padding: 13px 10px 13px!important;
     background: #f85700!important;
-    font-size: 20px;
+    font-size: 16px;
 }
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
     background-color: #FFA800!important;
