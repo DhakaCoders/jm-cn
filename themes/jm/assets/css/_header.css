@@ -176,6 +176,18 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
     font-size: 16px;
     border-radius: 10px;
 }
+
+.serach-box input[type="text"]::-webkit-input-placeholder { /* Edge */
+  opacity: 1;
+}
+
+.serach-box input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  opacity: 1;
+}
+
+.serach-box input[type="text"]::placeholder {
+  opacity: 1;
+}
 .main-header .top-info ul li{
 	position: relative;
 	float: left;
