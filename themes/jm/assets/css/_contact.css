@@ -312,6 +312,9 @@ textarea {
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
         margin: 0 -18px;
     }
+    .contact-form-info h6 {
+        margin-bottom: 36px;
+    }
 }
 @media (max-width: 1399px){
     .contact-form-sec-wrp {
@@ -339,11 +342,24 @@ textarea {
     .contact-form-rgt {
         width: 64%;
     }
+    .contact-form-info h6 {
+        margin-bottom: 32px;
+    }
 }
 @media (max-width: 1299px){
     .contact-form-sec-wrp {
         padding-top: 160px;
         padding-bottom: 250px;
+    }
+    .contact-form-info h6 {
+        margin-bottom: 29px;
+    }
+    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-field-textarea textarea, 
+    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field:nth-child(3n+1) input {
+        padding: 15px 15px 12px 22px;
+    }
+    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input{
+        padding: 15px 15px 12px 12px;
     }
 }
 @media (max-width: 1199px){
@@ -353,7 +369,8 @@ textarea {
     }
     .contact-form-info-cntlr{
        padding-left: 20px; 
-       padding-right: 20px; 
+       padding-right: 20px;
+       padding-top: 45px; 
     }
     .contact-form-lft {
         width: 35%;
@@ -365,6 +382,7 @@ textarea {
     .contact-form-dsc-wrp{
         padding-right: 50px;
         padding-left: 30px;
+        padding-top: 42px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{
         width: 50%;
@@ -372,6 +390,13 @@ textarea {
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
         margin: 0 -15px;
+    }
+    .contact-form-info h6 {
+        margin-bottom: 27px;
+    }
+    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-field-textarea textarea,
+    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input {
+        padding: 15px 15px 12px 15px!important;
     }
 }
 @media (max-width: 991px){
@@ -389,6 +414,7 @@ textarea {
     .contact-form-dsc-wrp {
         padding-right: 20px;
         padding-left: 20px;
+        padding-top: 37px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{
         padding: 0 12px;
@@ -397,6 +423,7 @@ textarea {
         margin: 0 -12px;
     }
     .contact-form-info-cntlr{
+        padding-top: 38px;
         padding-right: 10px;
     }
     .cnt-dtails a{
@@ -413,7 +440,7 @@ textarea {
         width: 100%;
     }
     .contact-form-lft{
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .contact-form-lft{
         padding-right: 0;
@@ -423,8 +450,14 @@ textarea {
         margin: 0 auto;
     }
 }
-@media (max-width: 1699px){
-    
+@media (max-width: 575px){
+    .contact-form-sec-wrp {
+        padding-top: 90px;
+        padding-bottom: 150px;
+    }
+    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field {
+        width: 100%;
+    }
 }
 @media (max-width: 1699px){
     
