@@ -161,7 +161,8 @@ ol li::before {
     -o-transform: translate(-50%,-50%);
     margin-top: 1px;
     background: url('../images/breadcrumb-arrow.png');
-    height: 6px;
+    background-repeat: no-repeat!important;
+    height: 8px;
     width: 13px;
 }
 .breadcrumb-sec-inr ul li:first-child:after{
@@ -194,11 +195,11 @@ ol li::before {
 .breadcrumb-sec-inr ul li:last-child span{
 	color: #010101;
 }
-/*.breadcrumb-sec-inr ul li a:hover, 
+.breadcrumb-sec-inr ul li a:hover, 
 .breadcrumb-sec-inr ul li span:hover, 
 .breadcrumb-sec-inr ul li a span:hover {
-    color: #fff;
-}*/
+    opacity: 0.7;
+}
 
 
 /* ===================== */
