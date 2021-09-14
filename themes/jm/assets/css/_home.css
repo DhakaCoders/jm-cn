@@ -36,6 +36,10 @@
 .hmBnrSlider{
 	position: relative;
 }
+.hm-bnr-slider-item-cntlr .hm-bnr-slider-item{
+	padding-left: 7.9%;
+	padding-right: 7.9%;
+}
 .hmBnrSlider.slick-dotted.slick-slider{
 	margin-bottom: 0!important;
 }
@@ -43,20 +47,29 @@
 	display: inline-block;
 	padding: 0!important;
 	width: auto;
-	height: 22px;
 	position: absolute!important;
-	right: -100px;
-	bottom: 250px;
-	transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-webkit-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
+	right: 0;
+	bottom:  28.93%;
+	width: 22px!important;
+	display: flex;
+	flex-wrap: wrap;
+}
+.hmBnrSlider.slick-slider ul.slick-dots li{
+	margin: 7px 0!important;
+}
+.hmBnrSlider.slick-slider ul.slick-dots li:first-child{
+	margin: 0!important;
+}
+.hmBnrSlider.slick-slider ul.slick-dots li:last-child{
+	margin: 0!important;
 }
 .hm-bnr-slider-item{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	height: 622px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .bnr-slider-item-desc-cntlr{
 	width: 50%;
@@ -237,6 +250,19 @@
 	.services-grid > ul > li{
 		padding: 0 10px;
 	}
+	.fl-h1.bnr-slider-item-title{
+		font-size: 37px;
+		margin-bottom: 22px;
+	}
+	.fl-h4.bnr-slider-item-sub-title{
+		font-size: 20px;
+	}
+	.bnr-slider-item-desc-cntlr{
+		padding-right: 30px;
+	}
+	.hmBnrSlider.slick-slider ul.slick-dots{
+		width: 16px!important;
+	}
 
 }
 @media(max-width: 991px){
@@ -263,6 +289,16 @@
 	.services-sec{
 		padding: 85px 0 30px 0;
 	}
+	.hm-bnr-slider-item-cntlr .hm-bnr-slider-item {
+		padding-left: 4.9%;
+		padding-right: 4.9%;
+	}
+	.fl-h1.bnr-slider-item-title {
+		font-size: 31px;
+	}
+	.fl-h4.bnr-slider-item-sub-title{
+		font-size: 18px;
+	}
 }
 @media(max-width: 767px){
 	
@@ -277,6 +313,25 @@
 	.services-sec{
 		padding: 70px 0 30px 0;
 	}
+	.bnr-slider-item-img{
+		width: 100%;
+		margin-bottom: 30px;
+		order: 1;
+		text-align: center;
+	}
+	.bnr-slider-item-img img{
+		max-width: 550px;
+	}
+	.bnr-slider-item-desc-cntlr{
+		padding-right: 0;
+		order: 2;
+		
+		width: 100%;
+	}
+	.bnr-slider-item-desc{
+		margin-right: auto;
+	}
+	
 }
 @media(max-width: 639px){
 	

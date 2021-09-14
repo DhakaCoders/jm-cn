@@ -83,6 +83,10 @@
 	body{
 		font-size: 23px;
 	}
+	.slick-slider .slick-dots li{
+		width: 16px!important;
+		height: 16px!important;
+	}
 }
 
 @media(max-width: 1299px){
