@@ -31,17 +31,29 @@
     font-size: 20px;
     color: #282526;
 }
-.cnt-addres.cnt-dtails a span:hover,
+.cnt-addres.cnt-dtails > span > a:hover,
 .cnt-dtails a:hover{
     color: #f85700;
 }
-.cnt-addres.cnt-dtails a span{
+.cnt-addres.cnt-dtails a:hover{
     color: #282526;
 }
-.cnt-addres.cnt-dtails a{
-    color: #f85700;
+.cnt-addres.cnt-dtails > span{
+    display: inline-block;
+    position: relative;
+    padding-left: 50px;
 }
-.cnt-addres.cnt-dtails a:hover{
+.cnt-addres.cnt-dtails > span > a{
+    padding-left: 0;
+    display: inline;
+    color: #282526;
+    font-size: 20px;
+}
+.cnt-addres.cnt-dtails > span > a.clr-org{
+    color: #f85700;
+    font-size: 20px;
+}
+.cnt-addres.cnt-dtails > span > a.clr-org:hover{
     color: #282526;
 }
 .cnt-tel.cnt-dtails a:after{
@@ -91,20 +103,9 @@
     height: 35px;
     width: 23px;
     background-size: cover;
-    margin-top: 3px;
+    margin-top: 5px;
 }
-.cnt-addres.cnt-dtails > span{
-    display: inline-block;
-    position: relative;
-    padding-left: 50px;
-}
-.cnt-addres.cnt-dtails > span > a{
-    padding-left: 0;
-    display: inline-block;
-}
-.cnt-addres.cnt-dtails > span > a:last-child{
-    padding: 0;
-}
+.cnt-addres.cnt-dtails 
 .contact-form-info-cntlr {
     height: 100%;
     padding: 0 30px;
@@ -230,6 +231,9 @@ textarea {
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-has-error input[type="number"].wpforms-error {
     border: 1px solid #D61D1D !important;
 }
+
+
+
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error input::-webkit-input-placeholder { / Chrome/Opera/Safari /
   text-transform: capitalize !important;
 }
@@ -242,6 +246,10 @@ textarea {
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error input:-moz-placeholder { / Firefox 18- /
   text-transform: capitalize !important;
 }
+
+
+
+
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input::placeholder,
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea::placeholder{
     color:#525051!important;
@@ -267,6 +275,10 @@ textarea {
     color:#525051!important;
     opacity:1;
 }
+
+
+
+
 
 
 
@@ -465,9 +477,10 @@ span.select2.select2-container.select2-container--default {
         width: 36%;
         padding-right: 44px;
     }
+    .cnt-addres.cnt-dtails > span,
     .cnt-dtails a{
         padding-left: 45px;
-        font-size: 19px;
+        font-size: 19px!important;
     }
     .contact-form-rgt {
         width: 64%;
@@ -556,8 +569,9 @@ span.select2.select2-container.select2-container--default {
         padding-top: 38px;
         padding-right: 10px;
     }
-    .cnt-dtails a{
-        font-size: 18px;
+    .cnt-dtails a,
+    .cnt-addres.cnt-dtails > span{
+        font-size: 18px!important;
     }
 }
 @media (max-width: 767px){
