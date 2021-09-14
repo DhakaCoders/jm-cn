@@ -88,6 +88,18 @@
 	padding-bottom: 80px;
 }
 
+.jmRelatedSlider .jm-related-grd-item{
+	display: none;
+}
+
+.jmRelatedSlider .jm-related-grd-item:first-child{
+	display: block;
+}
+
+.jmRelatedSlider.slick-initialized .jm-related-grd-item{
+	display: block;
+}
+
 
 @media(max-width: 1699px){
 	.jm-pro-single-con-sec {
