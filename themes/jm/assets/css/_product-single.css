@@ -88,7 +88,7 @@
 	padding-bottom: 80px;
 }
 
-.jmRelatedSlider .jm-related-grd-item{
+/*.jmRelatedSlider .jm-related-grd-item{
 	display: none;
 }
 
@@ -98,7 +98,7 @@
 
 .jmRelatedSlider.slick-initialized .jm-related-grd-item{
 	display: block;
-}
+}*/
 
 
 @media(max-width: 1699px){
