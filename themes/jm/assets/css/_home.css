@@ -317,10 +317,12 @@
 		width: 100%;
 		margin-bottom: 30px;
 		order: 1;
-		text-align: center;
+		display: flex;
+		justify-content: center;
 	}
 	.bnr-slider-item-img img{
 		max-width: 550px;
+		width: 100%;
 	}
 	.bnr-slider-item-desc-cntlr{
 		padding-right: 0;
@@ -330,6 +332,26 @@
 	}
 	.bnr-slider-item-desc{
 		margin-right: auto;
+		text-align: center;
+	}
+	.hm-bnr-slider-item{
+		align-items: initial;
+	}
+	.hmBnrSlider.slick-slider ul.slick-dots{
+		position: static!important;
+		width: 100%!important;
+		justify-content: center;
+		margin-bottom: 30px!important;
+	}
+	.hmBnrSlider.slick-slider ul.slick-dots li{
+		margin: 0 7px!important;
+	}
+	.hm-bnr-slider-item-cntlr .hm-bnr-slider-item {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.hm-bnr-slider-item{
+		height: 500px;
 	}
 	
 }
