@@ -1,7 +1,7 @@
 .footer-wrp{
 	background: #232323;
 	
-	padding-bottom: 220px;
+	padding-bottom: 100px;
 }
 .footer-inr{
 
@@ -26,7 +26,7 @@
 	align-items: center;
 	flex-wrap: wrap;
 	margin: 0 -20px;
-
+	margin-top: -11px;
 }
 .ftr-menu > ul > li{
 	padding: 0 20px;
@@ -85,4 +85,87 @@
 	margin-bottom: 0;
 	color: #fff;
 	font-size: 14px;
+}
+
+/*responsive*/
+@media(max-width: 1399px){
+
+}
+@media(max-width: 1199px){
+	.ftr-logo a{
+		max-width: 90px;
+	}
+	.ftr-menu > ul{
+		margin: 0 -10px;
+		margin-top: -8px;
+	}
+	.ftr-menu > ul > li{
+		padding: 0 10px;
+	}
+}
+@media(max-width: 991px){
+	.ftr-top{
+		padding-top: 40px;
+	}
+	.ftr-logo a{
+		max-width: initial;
+	}
+	.ftr-logo{
+		padding-top: 0;
+		margin-bottom: 40px;
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.ftr-menu{
+		margin-left: initial;
+		margin-bottom: 30px;
+	}
+	.ftr-socials{
+		margin-bottom: 30px;
+	}
+	.ftr-menu > ul{
+		margin: 0 -7px;
+		margin-top: -5px;
+	}
+	.ftr-menu > ul > li{
+		padding: 0 7px;
+	}
+	.ftr-menu > ul > li > a{
+		font-size: 13px;
+	}
+	.ftr-socials > ul > li > a{
+		height: 30px;
+		width: 30px;
+		font-size: 17px;
+	}
+}
+@media(max-width: 767px){
+	.ftr-menu,
+	.ftr-socials{
+		width: 100%;
+	}
+	.ftr-menu > ul,
+	.ftr-socials > ul{
+		justify-content: center;
+	}
+	.ftr-menu > ul{
+		margin: 0 -10px;
+		margin-top: -5px;
+	}
+	.ftr-menu > ul > li{
+		padding: 0 10px;
+		margin-bottom: 6px;
+	}
+	.ftr-menu > ul > li > a{
+		font-size: 14px;
+	}
+	.ftr-socials > ul > li > a{
+		height: 33px;
+		width: 33px;
+		font-size: 19px;
+	}
+}
+@media(max-width: 575px){
+
 }
