@@ -52,7 +52,7 @@ textarea{
 }
 ::selection {
   color: #fff;
-  background: #f85700;
+  background: #000;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575
