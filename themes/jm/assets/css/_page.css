@@ -244,11 +244,18 @@ ol li::before {
 
 /*responsive*/
 
-
+@media(max-width: 1699px){
+	.default-page-con ol li::before, ol li::before{
+		font-size: 20px;
+	}
+}
 
 @media(max-width: 1399px){
 	.sec-entry-hdr {
 	    padding-bottom: 50px;
+	}
+	.default-page-con ol li::before, ol li::before{
+		font-size: 18px;
 	}
 }
 @media(max-width: 1199px){
@@ -263,6 +270,9 @@ ol li::before {
 	}
 	.jm-con-sec {
 	    padding: 40px 0;
+	}
+	.default-page-con ol li::before, ol li::before{
+		font-size: 16px;
 	}
 }
 @media(max-width: 757px){
@@ -280,6 +290,9 @@ ol li::before {
 	}
 	.sec-entry-hdr-title:after{
 		height: 7px;
+	}
+	.default-page-con ol li::before, ol li::before{
+		font-size: 15px;
 	}
 }
 @media(max-width: 575px){
