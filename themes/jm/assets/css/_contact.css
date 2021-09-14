@@ -1,5 +1,5 @@
 .contact-form-sec-wrp {
-    padding-top: 188px;
+    padding-top: 180px;
     padding-bottom: 300px;
 }
 .contact-form-lft {
@@ -171,12 +171,11 @@
     cursor: pointer!important;
     padding: 14px 15px!important;
     text-align: center;
-    letter-spacing: 1px;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover {
     background: transparent!important;
-    color: #f85700!important;
-    border-color: #f85700!important;
+    color: #282526!important;
+    border-color: #282526!important;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container:after, 
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container:before {
@@ -291,3 +290,46 @@ textarea {
   color: #D61D1D!important;
   opacity: 1;
 }
+
+
+
+/*responsive-start*/
+
+@media (max-width: 1699px){
+
+}
+@media (max-width: 1499px){
+    .contact-form-sec-wrp {
+        padding-top: 180px;
+        padding-bottom: 285px;
+    }
+}
+@media (max-width: 1399px){
+    .contact-form-info-cntlr{
+        padding-top: 50px;
+    }
+    .contact-form-dsc-wrp{
+        padding-top: 47px;
+        padding-right: 85px
+    }
+}
+@media (max-width: 1699px){
+    
+}
+@media (max-width: 1699px){
+    
+}
+@media (max-width: 1699px){
+    
+}
+@media (max-width: 1699px){
+    
+}
+@media (max-width: 1699px){
+    
+}
+@media (max-width: 1699px){
+    
+}
+
+/*responsive-end*/
