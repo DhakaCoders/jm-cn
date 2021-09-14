@@ -99,6 +99,15 @@
 
 .jm-welcome-sec{
 	padding: 90px 0 80px;
+	position: relative;
+}
+.jm-welcome-rgt-img-ctlr{
+	position: absolute;
+	top: 30%;
+	right: 0;
+}
+.jm-welcome-rgt-img{
+	height: 500px;
 }
 
 .jm-welcome-title{
@@ -111,7 +120,7 @@
 	text-transform: uppercase;
 }
 
-.jm-welcome-des{
+/*.jm-welcome-des{
 	display: flex;
 	align-items: center;
 }
@@ -121,7 +130,13 @@
 }
 .jm-welcome-rgt{
 	width: 40%;
-}
+}*/
+
+/*.jm-welcome-rgt-img,
+.jm-welcome-rgt,
+.jm-welcome-rgt-img-ctlr{
+	height: 100%;
+}*/
 
 
 
