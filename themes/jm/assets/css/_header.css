@@ -47,11 +47,11 @@
 }
 
 .main-header .header-upper{
-	position:relative;
+	/*position:relative;
 	padding:0px;
 	width:100%;
 	background: #ffffff;
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;*/
 }
 
 .main-header .main-box{
@@ -303,7 +303,7 @@
 	-ms-transition:all 100ms ease;
 	-o-transition:all 100ms ease;
 	transition:all 100ms ease;
-	visibility: none;
+	visibility: 0;
 
 
 }
