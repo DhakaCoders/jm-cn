@@ -319,7 +319,7 @@ textarea {
 }
 
 
-
+/*select-2*/
 .contact-select-down-icon{
     position: relative;
 }
@@ -424,15 +424,14 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
     background-color: #282526!important;
     color: #fff!important;
 }
-.select2-container--default .select2-results__option--highlighted[aria-selected], 
-.select2-container--default .select2-results__option--highlighted[data-selected].select2-container--default .select2-results__options{
-    list-style: none!important;
-}
+
 
 
 span.select2.select2-container.select2-container--default {
     width: 100%!important;
 }
+
+/*select-2*/
 
 
 /*responsive-start*/
