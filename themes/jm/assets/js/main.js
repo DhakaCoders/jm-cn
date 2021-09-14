@@ -273,8 +273,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
   }
 
 /*start of Kashob*/
-if( $('.contect-form-wrp').length ){
-  $('.contect-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button').on('click', function(){
+if( $('.contact-form-wrp').length ){
+  $('.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button').on('click', function(){
     $('.wpforms-field input[required],.wpforms-field select[required]').parents('.wpforms-field').addClass('wpforms-has-error');
     $('.wpforms-field input[required],.wpforms-field select[required]').addClass('wpforms-error');
   });
