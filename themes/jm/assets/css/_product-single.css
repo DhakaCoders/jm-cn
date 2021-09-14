@@ -73,6 +73,18 @@
 	padding: 60px 0;
 }
 
+.jm-related-grds{
+	margin-left: -40px;
+	margin-right: -40px;
+}
+.jm-related-grd-item{
+	float: left;
+	width: 25%;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 80px;
+}
+
 
 @media(max-width: 1699px){
 	.jm-pro-single-con-sec {
@@ -86,6 +98,15 @@
 	}
 	.jm-pro-single-lft-img {
 	    padding-bottom: 70px;
+	}
+	.jm-related-grds{
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	.jm-related-grd-item{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 70px;
 	}
 }
 @media(max-width: 1399px){
