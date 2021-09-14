@@ -457,12 +457,6 @@ span.select2.select2-container.select2-container--default {
         padding-top: 90px;
         padding-bottom: 180px;
     }
-    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{
-        padding: 0 18px;
-    }
-    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
-        margin: 0 -18px;
-    }
     .contact-form-info h6 {
         margin-bottom: 36px;
     }
@@ -565,10 +559,10 @@ span.select2.select2-container.select2-container--default {
         padding-top: 37px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{
-        padding: 0 12px;
+        padding: 0 10px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
-        margin: 0 -12px;
+        margin: 0 -10px;
     }
     .contact-form-info-cntlr{
         padding-top: 38px;
