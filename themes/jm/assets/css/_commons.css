@@ -218,7 +218,7 @@ ul.ab-top-menu,
 	padding: 0;
 	list-style: none;
 }
-.reset-list > li,
+.reset-list li,
 ul.sub-menu li,
 .fl-pagi-ctlr ul li,
 .reset-slect ul li,
@@ -230,7 +230,7 @@ ul.ab-top-menu li,
 	list-style: none;
 	margin: 0;
 }
-.reset-list > li:before,
+.reset-list li:before,
 ul.sub-menu li:before,
 .fl-pagi-ctlr ul li:before,
 .reset-slect ul li:before,
