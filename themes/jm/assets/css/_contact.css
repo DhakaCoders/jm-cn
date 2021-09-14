@@ -303,7 +303,6 @@ textarea {
 
 .contact-select-down-icon{
     position: relative;
-    margin-bottom: 32px;
 }
 .contact-select-down-icon:after{
     content: "\f107";
@@ -386,7 +385,7 @@ body .select2-dropdown {
 }
 ul.select2-results__options li {
     padding: 13px 10px 13px!important;
-    background: #ff9140!important;
+    background: #f85700!important;
 }
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
     background-color: #FFA800!important;
@@ -403,12 +402,17 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 }
 .select2-container--default .select2-results__option--highlighted[aria-selected], 
 .select2-container--default .select2-results__option--highlighted[data-selected] {
-    background-color: #de7b32!important;
+    background-color: #282526!important;
     color: #fff!important;
 }
+.select2-container--default .select2-results__option--highlighted[aria-selected], 
+.select2-container--default .select2-results__option--highlighted[data-selected].select2-container--default .select2-results__options{
+    list-style: none!important;
+}
 
-.wpforms-field .contact-select.contact-select-down-icon .select2.select2-container.select2-container--default{
-    width: 100!important;
+
+span.select2.select2-container.select2-container--default {
+    width: 100%!important;
 }
 
 
