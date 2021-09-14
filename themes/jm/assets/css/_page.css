@@ -235,7 +235,7 @@ ol li::before {
 .fl-pagination-ctlr ul li.next a{
 	position: absolute;
 	right: 15px;
-	top: 6px;
+	top: 2px;
 	padding-right: 20px;
 }
 .fl-pagination-ctlr ul li.next a:after{
@@ -251,7 +251,7 @@ ol li::before {
 .fl-pagination-ctlr ul li.prev a{
 	position: absolute;
 	left: 15px;
-	top: 6px;
+	top: 2px;
 	padding-left: 20px;
 }
 .fl-pagination-ctlr ul li.prev a:after{
