@@ -125,12 +125,12 @@
     border-radius: 10px;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
-    margin: 0 -20px;
+    margin: 0 -10px;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field {
     width: 33.333%;
     float: left;
-    padding: 0 20px;
+    padding: 0 10px;
     margin-bottom: 31px;
     position: relative;
 } 
@@ -457,12 +457,6 @@ span.select2.select2-container.select2-container--default {
         padding-top: 90px;
         padding-bottom: 180px;
     }
-    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{
-        padding: 0 18px;
-    }
-    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
-        margin: 0 -18px;
-    }
     .contact-form-info h6 {
         margin-bottom: 36px;
     }
@@ -483,16 +477,12 @@ span.select2.select2-container.select2-container--default {
         padding-left: 35px;
     }
     .contact-form-lft {
-        width: 36%;
         padding-right: 44px;
     }
     .cnt-addres.cnt-dtails > span,
     .cnt-dtails a{
         padding-left: 45px;
         font-size: 19px!important;
-    }
-    .contact-form-rgt {
-        width: 64%;
     }
     .contact-form-info h6 {
         margin-bottom: 32px;
@@ -569,10 +559,10 @@ span.select2.select2-container.select2-container--default {
         padding-top: 37px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{
-        padding: 0 12px;
+        padding: 0 10px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
-        margin: 0 -12px;
+        margin: 0 -10px;
     }
     .contact-form-info-cntlr{
         padding-top: 38px;
