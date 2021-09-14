@@ -217,7 +217,7 @@ ol li::before {
 }
 .sec-entry-hdr-title{
 	text-align: center;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	padding-bottom: 35px;
 	position: relative;
 }
