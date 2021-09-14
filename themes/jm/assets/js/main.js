@@ -287,6 +287,8 @@ if( $('.wpforms-error').length ){
   });
 }
 
+$('.select-2-cntlr').select2();
+
 /*start of Shariful*/
 
 var windowWidth = $(window).width();
