@@ -113,7 +113,6 @@
 .services-grid > ul{
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	flex-wrap: wrap;
 	margin: 0 -35px;
 }
@@ -232,6 +231,12 @@
 	.brand-cntlr .sec-entry-hdr {
 		padding-bottom: 70px;
 	}
+	.services-grid > ul{
+		margin: 0 -10px;
+	}
+	.services-grid > ul > li{
+		padding: 0 10px;
+	}
 
 }
 @media(max-width: 991px){
@@ -248,6 +253,16 @@
 	.brand-cntlr .sec-entry-hdr {
 		padding-bottom: 60px;
 	}
+	.services-grid > ul{
+		margin: 0 -10px;
+	}
+	.services-grid > ul > li{
+		padding: 0 10px;
+		width: 50%;
+	}
+	.services-sec{
+		padding: 85px 0 30px 0;
+	}
 }
 @media(max-width: 767px){
 	
@@ -259,11 +274,26 @@
 	.brand-cntlr .sec-entry-hdr {
 		padding-bottom: 50px;
 	}
+	.services-sec{
+		padding: 70px 0 30px 0;
+	}
 }
 @media(max-width: 639px){
 	
 
-	
+	.services-grid > ul{
+		margin: 0;
+	}
+	.services-grid > ul > li{
+		padding: 0;
+		width: 100%;
+	}
+	.services-item{
+		max-width: 400px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
 
 }
 
@@ -274,6 +304,9 @@
 	.brand-grid-item{
 		width: 50%;
 		margin-bottom: 30px;
+	}
+	.services-sec{
+		padding: 60px 0 20px 0;
 	}
 	.brand-sec{
 		padding-top: 60px;

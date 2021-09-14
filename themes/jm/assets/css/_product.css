@@ -32,14 +32,20 @@
 }
 
 .jm-pro-grd-fea-img{
+	padding-bottom: 10px;
 	margin-bottom: 20px;
-	max-height: 242px;
+	max-height: 258px;
 	width: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
 	position: relative;
+}
+.jm-pro-grd-fea-img img{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
 }
 
 .jm-pro-grd-item-des-title{
@@ -93,9 +99,9 @@
 	color: #f85700;
 }
 .jm-pro-grd-item:hover .jm-pro-grd-fea-img img{
-	transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
+	transform: scale(1.0);
+	-webkit-transform: scale(1.0);
+	-ms-transform: scale(1.0);
 }
 
 
@@ -126,6 +132,9 @@
 }
 .jm-welcome-hdr{
 	padding-bottom: 50px;
+}
+.jm-welcome-lft-des p{
+	font-weight: 300;
 }
 
 
