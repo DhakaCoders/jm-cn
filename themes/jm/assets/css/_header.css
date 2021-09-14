@@ -1,52 +1,3 @@
-/*.header{
-	position: relative;
-}
-.header:after{
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	background: #f85700;
-	height: 7px;
-	width:  55%;
-}
-
-
-
-nav.main-nav ul{
-
-}
-nav.main-nav ul li{
-	
-}
-nav.main-nav ul li a{
-	
-}
-nav.main-nav > ul{
-
-}
-nav.main-nav > ul > li{
-
-}
-nav.main-nav > ul > li > a{
-
-}
-
-nav.main-nav > ul > li.current-menu-item > a{
-
-}
-
-nav.main-nav > ul > li.menu-item-has-children > a{
-
-}
-
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
-	
-}
-*/
-
-
-
 
 .main-header{
 	position:relative;
@@ -100,7 +51,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	padding:0px;
 	width:100%;
 	background: #ffffff;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 .main-header .main-box{
@@ -338,11 +289,11 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	width:240px;
 	padding:0px 0px;
 	z-index:100;
-	opacity: 1;
+	opacity: 0;
 	text-align:left;
 	background:#ffffff;
 	border: 1px solid rgba(0,0,0,0.10);
-	border-top: 4px solid #E30613;
+	border-top: 4px solid #282526;
 	border-radius:0px;
 	-webkit-transform: translateY(20px);
 	-ms-transform: translateY(20px);
@@ -352,6 +303,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	-ms-transition:all 100ms ease;
 	-o-transition:all 100ms ease;
 	transition:all 100ms ease;
+	visibility: none;
+
+
 }
 
 .main-menu .navigation > li > ul > li{
@@ -371,7 +325,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	font-size:14px;
 	line-height:24px;
 	font-weight:600;
-	color:#303031;
+	color:#282526;
 	text-decoration: none;
 	text-transform:capitalize;
 	-moz-transition:all 500ms ease;
@@ -384,9 +338,36 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 .main-menu .navigation > li > ul > li:hover > a,
 .main-menu .navigation > li > ul > li.current > a{
 	color:#ffffff;
-	background: #E30613;
+	background: #f85700;
 }
-
+.main-menu .navigation > li.dropdown > a{
+	padding-right: 20px;
+	position: relative;
+}
+.main-menu .navigation > li.dropdown > a:after{
+	content: "\f107";
+    position: absolute;
+    right: 0;
+    color: #000;
+    font-size: 20px;
+    line-height: 1;
+    top: 10px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.main-menu .navigation > li.dropdown:hover > a:after{
+	    transform: rotate(
+-180deg);
+    -ms-transform: rotate(-180deg);
+    -webkit-transform: rotate(
+-180deg);
+    -o-transform: rotate(-180deg);
+}
 .main-menu .navigation > li.dropdown:hover > ul{
 	visibility:visible;
 	opacity:1;	

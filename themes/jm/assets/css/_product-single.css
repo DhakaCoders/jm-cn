@@ -129,6 +129,7 @@
 	}
 	.jm-pro-single-des-subtitle{
 		margin-bottom: 40px;
+		padding-bottom: 30px;
 	}
 	.jm-pro-single-rgt p{
 		margin-bottom: 30px;
@@ -189,7 +190,7 @@
 		font-size: 24px;
 	}
 	.jm-pro-single-lft-download a{
-		font-size: 22px;
+		font-size: 20px;
 	}
 	.jm-pro-single-lft-img {
 	    padding-bottom: 40px;
@@ -230,7 +231,7 @@
 		font-size: 22px;
 	}
 	.jm-pro-single-lft-download a{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.jm-pro-single-lft{
 		padding-bottom: 30px;
@@ -251,7 +252,7 @@
 		padding-right: 0;
 	}
 	.jm-pro-single-lft-download a i {
-	    max-width: 32px;
+	    max-width: 30px;
 	}
 }
 @media(max-width: 575px){
