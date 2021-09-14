@@ -33,6 +33,8 @@
 
 .jm-pro-grd-fea-img{
 	margin-bottom: 20px;
+	max-height: 242px;
+	width: auto;
 	overflow: hidden;
 	position: relative;
 }
@@ -56,13 +58,13 @@
 }
 
 
-.jm-pro-tagline{
+.jm-pro-tag{
 	position: absolute;
 	top: 35px;
 	right: 0;
 	margin-right: -32px;
 }
-.jm-pro-tagline strong{
+.jm-pro-tag strong{
 	display: inline-block;
 	vertical-align: baseline;
 	background: #f85700;
@@ -103,7 +105,7 @@
 }
 .jm-welcome-rgt-img-ctlr{
 	position: absolute;
-	top: 30%;
+	/*top: 0%;*/
 	right: 0;
 }
 .jm-welcome-rgt-img{
