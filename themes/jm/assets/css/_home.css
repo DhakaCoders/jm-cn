@@ -163,6 +163,9 @@
 	padding-top: 95px;
 	padding-bottom: 95px;
 }
+.brand-cntlr .sec-entry-hdr{
+	padding-bottom: 85px;
+}
 .brand-grid{
 	display: flex;
 	align-items: center;
