@@ -43,9 +43,9 @@
     min-width: 210px;
 }
 .fl-orange-btn:hover{
-    color: #282526;
+    color: #f85700;
     background: transparent;
-    border-color: #282526;
+    border-color: #f85700;
 }
 
 @media (max-width: 479px){
