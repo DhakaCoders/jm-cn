@@ -100,10 +100,7 @@
 }
 .cnt-addres.cnt-dtails > span > a{
     padding-left: 0;
-    display: inline-block;
-}
-.cnt-addres.cnt-dtails > span > a:last-child{
-    padding: 0;
+    display: inline;
 }
 .contact-form-info-cntlr {
     height: 100%;
