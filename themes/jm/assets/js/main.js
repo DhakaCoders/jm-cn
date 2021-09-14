@@ -309,7 +309,7 @@ $(window).resize(function(){
   $('.jm-welcome-rgt-img-ctlr').css("width", imgWidth);
 });
 
-if( $('.jmRelatedSlider').length ){
+/*if( $('.jmRelatedSlider').length ){
     $('.jmRelatedSlider').slick({
       dots: false,
       arrows: false,
@@ -348,7 +348,7 @@ if( $('.jmRelatedSlider').length ){
         // instead of a settings object
       ]
     });
-}
+}*/
 
 /*start of Noyon*/
   if( $('.hmBnrSlider').length ){
