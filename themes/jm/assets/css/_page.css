@@ -215,6 +215,49 @@ ol li::before {
 /* ===================== */
 
 
+/*pagination*/
+.fl-pagination-ctlr{
+	padding-top: 56px;
+}
+.fl-pagination-ctlr ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 -15px;
+	position: relative;
+}
+.fl-pagination-ctlr ul li{
+	padding: 0 15px!important;
+	line-height: 1.3;
+	position: initial;
+}
+
+.fl-pagination-ctlr ul li a.next.page-numbers{
+	right: 18px;
+	top: -4px;
+}
+.fl-pagination-ctlr ul li a.prev.page-numbers{
+	left: 18px;
+	top: -4px;
+}
+
+.fl-pagination-ctlr ul li a,
+.fl-pagination-ctlr ul li span{
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	line-height: 1.3;
+	color: #f85700;
+}
+.fl-pagination-ctlr ul li span.current,
+.fl-pagination-ctlr ul li a:hover{
+	color: #282526;
+}
+/*.fl-pagination-ctlr ul li a.prev:hover svg,
+.fl-pagination-ctlr ul li a.next:hover svg{
+	fill: #162B39;
+}*/
+
 
 /* section entry header */
 
