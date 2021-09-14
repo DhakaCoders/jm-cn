@@ -204,7 +204,7 @@ ol li::before {
 .breadcrumb-sec-inr ul li a:hover, 
 .breadcrumb-sec-inr ul li span:hover, 
 .breadcrumb-sec-inr ul li a span:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 
