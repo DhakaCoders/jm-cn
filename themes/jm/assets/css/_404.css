@@ -47,3 +47,9 @@
     background: transparent;
     border-color: #282526;
 }
+
+@media (max-width: 479px){
+    .fl-orange-btn{
+        width: 100%;
+    }
+}
