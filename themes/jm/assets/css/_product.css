@@ -32,11 +32,16 @@
 }
 
 .jm-pro-grd-fea-img{
-	padding-bottom: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
 }
 
 .jm-pro-grd-item-des-title{
 	margin-bottom: 10px;
+}
+.jm-pro-grd-item-des-title a{
+	color: #282526;
 }
 
 .jm-pro-grd-item-btn{
@@ -75,6 +80,16 @@
 
 .jm-load-more-btn{
 	text-align: center;
+}
+
+
+.jm-pro-grd-item-des-title a:hover{
+	color: #f85700;
+}
+.jm-pro-grd-item:hover .jm-pro-grd-fea-img img{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
 }
 
 
