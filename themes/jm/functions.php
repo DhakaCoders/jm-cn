@@ -36,7 +36,8 @@ if( !function_exists('cbv_theme_setup') ){
 
         register_nav_menus( array(
             'cbv_main_menu' => __( 'Main Menu', 'jmcopier' ),
-            'cbv_mobile_main_menu' => __( 'Mobile Menu', 'jmcopier' )
+            'cbv_mobile_main_menu' => __( 'Mobile Menu', 'jmcopier' ),
+            'cbv_footer_main_menu' => __( 'Footer Menu', 'jmcopier' ),
         ) );
 
     }
@@ -52,7 +53,11 @@ function cbv_theme_scripts(){
     include_once( THEME_DIR . '/enq-scripts/bootstrap.php' );
     include_once( THEME_DIR . '/enq-scripts/fonts.php' );
     if( !is_front_page() ) include_once( THEME_DIR . '/enq-scripts/fancybox.php' );
-    //include_once( THEME_DIR . '/enq-scripts/matchheight.php' );
+    include_once( THEME_DIR . '/enq-scripts/slick.php' );
+    include_once( THEME_DIR . '/enq-scripts/swiper.php' );
+    include_once( THEME_DIR . '/enq-scripts/matchheight.php' );
+    include_once( THEME_DIR . '/enq-scripts/select2.php' );
+    include_once( THEME_DIR . '/enq-scripts/animate.php' );
     include_once( THEME_DIR . '/enq-scripts/theme.default.php' );
 }
 
@@ -154,7 +159,10 @@ add_filter( 'wpcf7_autop_or_not', '__return_false' );
 
 function custom_post_type_query($query) {
     if (!is_admin() && $query->is_main_query()){
+        if(is_tax('brand')){
+          $query->set('posts_per_page', 8);
 
+        }
     }
     return $query;
 }
