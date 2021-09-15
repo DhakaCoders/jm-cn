@@ -313,6 +313,9 @@
 	.jm-welcome-lft-des {
 	    min-height: initial;
 	}
+	.jm-welcome-rgt-img {
+	    height: 400px!important;
+	}
 }
 @media(max-width: 639px){
 	.jm-pro-grds ul {
