@@ -323,7 +323,8 @@ textarea {
 .contact-select-down-icon{
     position: relative;
 }
-.contact-select-down-icon:after{
+/*.contact-select-down-icon:after*/
+.wpforms-field-select:after{
     content: "\f107";
     font-family:"Font Awesome 5 Free";
     font-style: normal;
@@ -332,7 +333,7 @@ textarea {
     color: #000;
     font-size: 18px;
     position: absolute;
-    right: 14px;
+    right: 18px;
     top: 50%;
     transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -365,7 +366,7 @@ textarea {
     padding: 0!important;
 }
 body .select2-container.select2-container--default.select2-container--open .select2-dropdown{
-    margin-top: 0;
+    margin-top: 32px;
     box-shadow: none;
 }
 .select2-container--default .select2-selection--single .select2-selection__arrow b,
