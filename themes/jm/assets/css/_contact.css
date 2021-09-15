@@ -409,6 +409,7 @@ body .select2-dropdown {
     border: 1px solid #cecece!important;
     height: 48px!important;
     padding: 4px 15px;
+    font-size:  14px;
 }
 ul.select2-results__options li {
     padding: 13px 10px 13px!important;
