@@ -235,7 +235,12 @@ var containerOffset = (windowWidth - containerWidth);
 var containerOffsetRgt = containerOffset / 2;
 var content = $('.jm-welcome-rgt').width();
 var imgWidth = (containerOffsetRgt + content + 15);
+
 $('.jm-welcome-rgt-img-ctlr').css("width", imgWidth);
+
+var conHeight = $('.jm-welcome-lft-des').innerHeight();
+alert(conHeight);
+/*$('.jm-welcome-rgt-img').css('height', conHeight);*/
 
 $(window).resize(function(){
   var windowWidth = $(window).width();

@@ -120,9 +120,9 @@
 	/*top: 0%;*/
 	right: 0;
 }
-.jm-welcome-rgt-img{
+/*.jm-welcome-rgt-img{
 	height: 500px;
-}
+}*/
 
 .jm-welcome-title{
 	margin-bottom: 10px;
@@ -141,6 +141,8 @@
 .jm-welcome-lft-des p{
 	font-weight: 300;
 }
+
+
 
 
 
