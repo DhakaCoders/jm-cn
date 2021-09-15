@@ -126,6 +126,7 @@ if($products):
                	foreach( $proobj as $pro ): 
                 $imgID = get_post_thumbnail_id($pro->ID);
                 $imgtag = !empty($imgID)? cbv_get_image_tag($imgID): product_placeholder('tag');
+                $flash = get_field('product_flash', $pro->ID);
                ?>
               <li>
                 <div class="jm-pro-grd-item">
@@ -139,7 +140,7 @@ if($products):
                   <div class="jm-pro-grd-item-btn">
                     <a class="fl-red-btn" href="<?php the_permalink($pro->ID); ?>"><?php _e( 'VIEW DETAILS', 'jmcopier' ); ?></a>
                   </div>
-                </div>
+                  <?php if( !empty($flash) ) printf('<div class="jm-pro-tag"><strong>%s</strong></div>', $flash); ?>
               </li>
               <?php endforeach; ?>
             </ul>
