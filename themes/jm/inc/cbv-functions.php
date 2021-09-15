@@ -237,14 +237,3 @@ function cbv_get_excerpt(){
   $excerpt .= $link;
   return wpautop($excerpt);
 }
-
-// remove page editor
-//add_action( 'admin_init', 'hide_editor' );
-function hide_editor() {
-  $post_id = $_GET['post'] ? $_GET['post'] : '' ;
-  if( !isset( $post_id ) ) return;
-  $home = get_the_title($post_id);
-  if($home == 'Home'){ 
-    remove_post_type_support('page', 'editor');
-  }
-}

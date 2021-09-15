@@ -98,7 +98,7 @@ function cbv_breadcrumbs() {
       if ( get_post_type() != 'post' ) {
         $post_type = get_post_type_object(get_post_type());
         $slug = $post_type->rewrite;
-        printf($link, $home_url . $slug['slug'] . '/', $post_type->labels->singular_name);
+        printf($link, $home_url . $slug['slug'] . '/', $post_type->label);
         if ($show_current) echo $sep . $before . get_the_title() . $after;
       } else {
         $cat = get_the_category(); $cat = $cat[0];
@@ -114,7 +114,7 @@ function cbv_breadcrumbs() {
       }
 
     // custom post type
-    } elseif ( !is_single() && !is_page() && get_post_type() != 'post' && !is_404() ) {
+    } elseif ( !is_single() && !is_page() && get_post_type() != 'post' && !is_404() && !is_tax() ) {
       $post_type = get_post_type_object(get_post_type());
       if ( get_query_var('paged') ) {
         echo $sep . sprintf($link, get_post_type_archive_link($post_type->name), $post_type->label) . $sep . $before . sprintf($text['page'], get_query_var('paged')) . $after;
@@ -164,6 +164,12 @@ function cbv_breadcrumbs() {
       } else {
         if ($show_current) echo $sep . $before . sprintf($text['tag'], single_tag_title('', false)) . $after;
       }
+
+    }elseif ( is_tax('brand') ) {
+
+      $post_type = get_post_type_object(get_post_type());
+      $term = get_queried_object();
+      echo $sep. $before .'<a href="'.home_url('products').'">Products</a>'. $after. $sep.$before.$term->name. $after ;
 
     } elseif ( is_author() ) {
       global $author;

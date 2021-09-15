@@ -1,8 +1,6 @@
 <?php 
 get_header(); 
 $thisID = get_the_ID();
-$customtitle = get_field('custom_page_title', $thisID);
-$page_title = !empty($customtitle)? $customtitle: get_the_title($thisID);
 get_template_part('templates/breadcrumbs');
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 $args = array(  
@@ -22,7 +20,7 @@ $query = new WP_Query( $args );
       <div class="col-md-12">
         <div class="jm-pro-grd-sec-inr">
           <div class="sec-entry-hdr">
-            <h2 class="sec-entry-hdr-title fl-h1"><?php echo $page_title; ?></h2>
+            <h2 class="sec-entry-hdr-title fl-h1"><strong>Search Result: </strong><?php echo get_search_query(); ?></h2>
           </div>
           <?php if( $query->have_posts() ): ?>
           <div class="jm-pro-grds">

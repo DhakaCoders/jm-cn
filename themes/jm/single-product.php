@@ -75,6 +75,7 @@ if($brandobj){
                 global $post;
                 $imgID = get_post_thumbnail_id($brand->ID);
                 $imgtag = !empty($imgID)? cbv_get_image_tag($imgID): product_placeholder('tag');
+                $flash = get_field('product_flash', $brand->ID);
               ?>
             <div class="jm-related-grd-item">
               <div class="jm-pro-grd-item">
@@ -88,6 +89,7 @@ if($brandobj){
                 <div class="jm-pro-grd-item-btn">
                   <a class="fl-red-btn" href="<?php the_permalink($brand->ID); ?>"><?php _e( 'VIEW DETAILS', 'jmcopier' ); ?></a>
                 </div>
+                <?php if( !empty($flash) ) printf('<div class="jm-pro-tag"><strong>%s</strong></div>', $flash); ?>
               </div>
             </div>
             <?php } ?>
