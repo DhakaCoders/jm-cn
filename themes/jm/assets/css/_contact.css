@@ -11,14 +11,14 @@
     width: 67%;
     float: right;
 }
-.contact-form-dsc-wrp h6,
+.contact-form-heading,
 .contact-form-info-title{
     text-transform: uppercase;
     color: #162B39;
     margin-bottom: 40px;
     line-height: 1;
 }
-.contact-form-dsc-wrp h6{
+.contact-form-heading{
     margin-bottom: 30px;
 }
 .cnt-dtails {
@@ -610,6 +610,10 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     .wpforms-field-select:after {
         right: 20px;
     }
+    .contact-form-heading,
+    .contact-form-info-title{
+        font-size: 17px!important;
+    }
 }
 @media (max-width: 767px){
     .contact-form-sec-wrp {
@@ -629,9 +633,6 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     .contact-form-info-cntlr {
         max-width: 400px;
         margin: 0 auto;
-    }
-    .contact-form-info-title{
-        font-size: 17px!important;
     }
 }
 @media (max-width: 575px){
