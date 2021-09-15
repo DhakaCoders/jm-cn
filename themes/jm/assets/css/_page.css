@@ -222,6 +222,7 @@ ol li::before {
 /*pagination*/
 .fl-pagination-ctlr{
 	position: relative;
+	padding-top: 10px;
 }
 .fl-pagination-ctlr ul{
 	display: flex;
@@ -277,7 +278,7 @@ ol li::before {
 	line-height: 1.3;
 	color: #f85700;
 }
-.fl-pagination-ctlr ul li span.current,
+.fl-pagination-ctlr ul li a.current,
 .fl-pagination-ctlr ul li a:hover{
 	color: #282526;
 }
