@@ -87,10 +87,7 @@
 	font-size: 14px;
 }
 
-/*responsive*/
-@media(max-width: 1399px){
 
-}
 @media(max-width: 1199px){
 	.ftr-logo a{
 		max-width: 90px;
@@ -149,9 +146,4 @@
 		font-size: 19px;
 	}
 }
-@media(max-width: 767px){
-	
-}
-@media(max-width: 575px){
 
-}
