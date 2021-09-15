@@ -366,7 +366,7 @@ textarea {
     padding: 0!important;
 }
 body .select2-container.select2-container--default.select2-container--open .select2-dropdown{
-    margin-top: 32px;
+    margin-top: 0px;
     box-shadow: none;
 }
 .select2-container--default .select2-selection--single .select2-selection__arrow b,
