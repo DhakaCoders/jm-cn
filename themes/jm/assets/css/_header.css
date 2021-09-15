@@ -9,9 +9,6 @@
 	z-index:999;
 }
 
-.main-header .auto-container{
-	padding: 0 50px 0 40px;
-}
 
 .main-header ul,
 .main-header ul li{
@@ -137,14 +134,17 @@
 
 .serach-box input[type="text"]::-webkit-input-placeholder { /* Edge */
   opacity: 1;
+  color: #fff;
 }
 
 .serach-box input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
   opacity: 1;
+  color: #fff;
 }
 
 .serach-box input[type="text"]::placeholder {
   opacity: 1;
+  color: #fff;
 }
 .main-header .top-info ul li{
 	position: relative;
