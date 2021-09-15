@@ -371,7 +371,9 @@
 	.fl-h1.bnr-slider-item-title{
 		color: #fff;
 	}
-	
+	.fl-h6.services-item-title {
+	    font-size: 17px;
+	}
 }
 @media(max-width: 639px){
 	
