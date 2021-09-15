@@ -126,10 +126,11 @@
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container {
     margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field {
     width: 33.333%;
-    float: left;
     padding: 0 10px;
     margin-bottom: 31px;
     position: relative;

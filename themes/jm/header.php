@@ -30,6 +30,7 @@ $email = get_field('emailaddres', 'options');
 ?> 
 <!-- Main Header-->
 <header class="main-header">
+    <div class="hdr-bdr"></div>
   <!-- Header Upper -->
     <div class="header-upper">        
         <div class="auto-container">
@@ -46,6 +47,7 @@ $email = get_field('emailaddres', 'options');
                   <?php endif; ?>
                 </div>
                 <div class="upper-right">
+                    <div class="hdr-bdr-content"></div>
                     <div class="top-info clearfix">
                         <ul class="clearfix">
                             <?php if( !empty($whatsapp) ): ?>

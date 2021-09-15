@@ -83,7 +83,7 @@ if($brandobj){
                   <?php echo $imgtag; ?>
                 </div>
                 <div class="jm-pro-grd-item-des mHc1">
-                  <h3 class="jm-pro-grd-item-des-title fl-h6"><?php echo get_the_title($brand->ID); ?></h3>
+                  <h3 class="jm-pro-grd-item-des-title fl-h6"><a href="<?php the_permalink($brand->ID); ?>"><?php echo get_the_title($brand->ID); ?></a></h3>
                 </div>
                 <div class="jm-pro-grd-item-btn">
                   <a class="fl-red-btn" href="<?php the_permalink($brand->ID); ?>"><?php _e( 'VIEW DETAILS', 'jmcopier' ); ?></a>

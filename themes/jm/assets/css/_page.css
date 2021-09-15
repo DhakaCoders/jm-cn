@@ -204,7 +204,11 @@ ol li::before {
 .breadcrumb-sec-inr ul li a:hover, 
 .breadcrumb-sec-inr ul li span:hover, 
 .breadcrumb-sec-inr ul li a span:hover {
-    opacity: 0.6;
+    color: #282526;
+}
+.breadcrumb-sec-inr ul li:last-child a:hover,
+.breadcrumb-sec-inr ul li:last-child span:hover{
+	color: #f85700;
 }
 
 
