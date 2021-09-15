@@ -235,7 +235,12 @@ var containerOffset = (windowWidth - containerWidth);
 var containerOffsetRgt = containerOffset / 2;
 var content = $('.jm-welcome-rgt').width();
 var imgWidth = (containerOffsetRgt + content + 15);
+
 $('.jm-welcome-rgt-img-ctlr').css("width", imgWidth);
+
+var conHeight = $('.jm-welcome-lft-des').height();
+var conInnerHeight = (conHeight - 99);
+$('.jm-welcome-rgt-img').css('height', conInnerHeight);
 
 $(window).resize(function(){
   var windowWidth = $(window).width();
@@ -245,6 +250,10 @@ $(window).resize(function(){
   var content = $('.jm-welcome-rgt').width();
   var imgWidth = (containerOffsetRgt + content + 15);
   $('.jm-welcome-rgt-img-ctlr').css("width", imgWidth);
+
+  var conHeight = $('.jm-welcome-lft-des').height();
+  var conInnerHeight = (conHeight - 99);
+  $('.jm-welcome-rgt-img').css('height', conInnerHeight);
 });
 
 
