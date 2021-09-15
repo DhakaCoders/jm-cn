@@ -19,7 +19,7 @@
     line-height: 1;
 }
 .contact-form-dsc-wrp h6{
-    margin-bottom: 23px;
+    margin-bottom: 30px;
 }
 .cnt-dtails {
     margin-bottom: 20px;
@@ -366,7 +366,7 @@ textarea {
     padding: 0!important;
 }
 body .select2-container.select2-container--default.select2-container--open .select2-dropdown{
-    margin-top: 32px;
+    margin-top: 0px;
     box-shadow: none;
 }
 .select2-container--default .select2-selection--single .select2-selection__arrow b,
@@ -445,6 +445,12 @@ div.wpforms-container-full .wpforms-form select{
 div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     max-width: 100%!important;
     width: 100%;
+}
+.select2-results__options .select2-results__option--disabled{
+    color: #fff;
+}
+.contact-form-wrp .wpforms-container-full{
+    margin-bottom: 0;
 }
 /*select-2*/
 
