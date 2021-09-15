@@ -238,9 +238,10 @@ var imgWidth = (containerOffsetRgt + content + 15);
 
 $('.jm-welcome-rgt-img-ctlr').css("width", imgWidth);
 
-var conHeight = $('.jm-welcome-lft-des').innerHeight();
-alert(conHeight);
-/*$('.jm-welcome-rgt-img').css('height', conHeight);*/
+var conHeight = $('.jm-welcome-lft-des').height();
+var conInnerHeight = (conHeight - 99);
+alert(conInnerHeight);
+$('.jm-welcome-rgt-img').css('height', conInnerHeight);
 
 $(window).resize(function(){
   var windowWidth = $(window).width();
