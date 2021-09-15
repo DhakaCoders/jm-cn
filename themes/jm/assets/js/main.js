@@ -226,7 +226,7 @@ if( $('.wpforms-error').length ){
   });
 }
 
-$('.select-2-cntlr').select2();
+$('.wpforms-field-select select').select2();
 
 
 var windowWidth = $(window).width();
