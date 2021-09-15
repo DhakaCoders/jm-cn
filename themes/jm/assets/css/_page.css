@@ -332,9 +332,7 @@ ol li::before {
 		font-size: 18px;
 	}
 }
-@media(max-width: 1199px){
 
-}
 @media(max-width: 991px){
 	.sec-entry-hdr {
 	    padding-bottom: 40px;
@@ -371,7 +369,4 @@ ol li::before {
 	.jm-con-sec {
 	    padding: 40px 0 70px;
 	}
-}
-@media(max-width: 575px){
-
 }
