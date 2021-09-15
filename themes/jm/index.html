@@ -4,7 +4,7 @@
   <title>Sitemap</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme-color" content="#EE3E15">
+  <meta name="theme-color" content="#f85700">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
@@ -14,18 +14,13 @@
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
-  
-  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
   <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
-  <link rel="stylesheet" type="text/css" href="assets/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" type="text/css" href="assets/select2/select2.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/flatpickr/flatpickr.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
@@ -167,6 +162,21 @@
 </section>
 <!-- / Hidden Bar -->
 
+<section class="breadcrumb-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="breadcrumb-sec-inr">
+          <ul class="reset-list clearfix">
+            <li class="home"><a href="#"><span>home</span></a></li>
+            <li><span>sitemap</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="main-content">
   <div class="container">
       <div class="row">
@@ -174,7 +184,11 @@
           <div class="sitemap">
             <ol>    
               <li><a href="front-page.html" target="_blank">home</a></li>
-              <li><a href="about.html" target="_blank">about</a></li>    
+              <li><a href="page.html" target="_blank">page</a></li>
+              <li><a href="product.html" target="_blank">product</a></li>
+              <li><a href="product-single.html" target="_blank">product single</a></li> 
+              <li><a href="contact.html" target="_blank">contact</a></li>
+              <li><a href="404.html" target="_blank">404</a></li>     
             </ol>
           </div>
         </div>
@@ -187,16 +201,48 @@
 
 
 <footer class="footer-wrp">
-  <div class="container">
+  <div class="container-lg">
     <div class="row">
-      <div class="col-sm-4">
-          <div class="ftr-col">
-            <div></div>
+      <div class="col-md-12">
+        <div class="footer-inr">
+          <div class="ftr-top">
+            <div class="ftr-logo">
+              <a href="#">
+                <img src="assets/images/ftr-logo.png" alt="">
+              </a>
+            </div>
+            <div class="ftr-menu">
+              <ul class="reset-list">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">certificate</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">inventory</a></li>
+                <li><a href="#">CONTACT US</a></li>                                                                     
+              </ul>
+            </div>
+            <div class="ftr-socials">
+              <ul class="reset-list">
+                <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
           </div>
+          <div class="copyright-bar">
+            <div class="ftr-copyright">
+              <p>Copyright &copy; 2021. All Rights Reserved. </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div> 
 </footer>
+
 
 <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
@@ -205,13 +251,9 @@
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 <script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
 <script src="assets/slick.slider/slick.js"></script>
-<script src="assets/swiper/swiper-bundle.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaRQsAJCZyyD6MbCg0jB_0sdLGEOxt97Y"></script>
 <script src="assets/js/jquery.matchHeight-min.js"></script>
 <script src="assets/js/app.js"></script>
-<script src="assets/js/wow.min.js"></script>
 <script src="assets/select2/select2.min.js"></script>
-<script src="assets/flatpickr/flatpickr.js"></script>
 <script src="assets/js/main.js"></script>
 
 </body>

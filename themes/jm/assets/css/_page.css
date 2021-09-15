@@ -37,11 +37,12 @@
 
 
 .sitemap{
-	padding: 50px 0 70px;
+	padding: 20px 0 70px;
 }
 
 .sitemap ol li a{
 	color: #FF674D;
+	text-transform: capitalize;
 }
 .sitemap ol li{
 	padding-left: 25px;
@@ -49,6 +50,10 @@
 
 .sitemap ol li a:focus{
 	text-decoration: underline;
+}
+
+.main-content{
+	padding: 100px 0 50px;
 }
 
 
@@ -118,11 +123,9 @@ ol li::before {
 
 
 
-.sitemap{
-	padding: 50px 0 70px;
-}
 
-.sitemap ol li a{
+
+/*.sitemap ol li a{
 	color: #FF674D;
 }
 .sitemap ol li{
@@ -131,7 +134,7 @@ ol li::before {
 
 .sitemap ol li a:focus{
 	text-decoration: underline;
-}
+}*/
 
 
 
