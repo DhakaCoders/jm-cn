@@ -41,7 +41,7 @@ $email = get_field('emailaddres', 'options');
           <div class="contact-form-rgt mHc">
             <div class="contact-form-dsc-wrp">
               <div class="contact-form-entry-header">
-              <?php if( !empty($form_title) ) printf('<h6 class="fl-h6">%s</h6>',$form_title ); ?>
+              <?php if( !empty($form_title) ) printf('<h6 class="contact-form-heading fl-h6">%s</h6>',$form_title ); ?>
               </div>
               <div class="contact-form-wrp clearfix">
               <?php if( !empty($shortcode) ) echo do_shortcode($shortcode); ?>
