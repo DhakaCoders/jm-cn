@@ -438,6 +438,13 @@ span.select2.select2-container.select2-container--default {
 .select2-results__option.select2-results__option--selectable.select2-results__option--highlighted:before{
     content: none;
 }
+div.wpforms-container-full .wpforms-form select{
+    height: 48px!important;
+}
+div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
+    max-width: 100%!important;
+    width: 100%;
+}
 /*select-2*/
 
 
