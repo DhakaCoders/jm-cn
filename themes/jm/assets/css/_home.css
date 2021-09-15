@@ -103,6 +103,41 @@
 .bnr-slider-item-img{
 	width: 50%;
 }
+
+
+
+.hmBnrSlider  .hm-bnr-slider-item-cntlr.slick-current .bnr-slider-item-title{
+  -webkit-animation-name: fadeInUpShort;
+  animation-name: fadeInUpShort;
+  -webkit-animation-duration: .7s;
+  animation-duration: .7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: .7s;
+  animation-delay: .7s;
+}
+.hmBnrSlider  .hm-bnr-slider-item-cntlr.slick-current .bnr-slider-item-sub-title{
+  -webkit-animation-name: fadeInUpShort;
+  animation-name: fadeInUpShort;
+  -webkit-animation-duration: 1.1s;
+  animation-duration: 1.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;	
+  -webkit-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+}
+.hmBnrSlider  .hm-bnr-slider-item-cntlr.slick-current .bnr-slider-item-btn{
+  -webkit-animation-name: fadeInUpShort;
+  animation-name: fadeInUpShort;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;	
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+
+
 .services-sec{
 	background: #f85700;
 	padding-top: 100px;

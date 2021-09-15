@@ -261,7 +261,7 @@ if( $('.hmBnrSlider').length ){
   $('.hmBnrSlider').slick({
     dots: true,
     infinite: false,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     autoplaySpeed: 4000,
     speed: 700,
