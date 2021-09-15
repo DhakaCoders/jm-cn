@@ -563,6 +563,9 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input {
         padding: 15px 15px 12px 12px!important;
     }
+    .wpforms-field-select:after{
+        right: 26px;
+    }
 }
 @media (max-width: 991px){
     .contact-form-sec-wrp {
@@ -597,6 +600,9 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     }
     .cnt-tel-2.cnt-dtails a:after{
         margin-top: 3px;
+    }
+    .wpforms-field-select:after {
+        right: 20px;
     }
 }
 @media (max-width: 767px){
