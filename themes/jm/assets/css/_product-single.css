@@ -259,6 +259,11 @@
 	.jm-pro-single-des-subtitle:after {
 	    width: 102px;
 	}
+	.jm-pro-single-lft-download a i {
+	    max-width: 30px;
+	}
+}
+@media(max-width: 639px){
 	.jm-related-grds{
 		margin-left: 0;
 		margin-right: 0;
@@ -268,11 +273,7 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.jm-pro-single-lft-download a i {
-	    max-width: 30px;
-	}
 }
-
 @media(max-width: 479px){
 	.jm-pro-single-lft-download a{
 		padding: 22px 20px 22px 70px;
