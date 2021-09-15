@@ -40,6 +40,9 @@ strong,b{
 i,em{
 	font-style: italic;
 }
+u{
+	text-decoration: underline;
+}
 
 input[type=text],
 input[type=email],
