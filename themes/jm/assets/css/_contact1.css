@@ -323,7 +323,7 @@ textarea {
 .contact-select-down-icon{
     position: relative;
 }
-/*.contact-select-down-icon:after*/
+.contact-select-down-icon:after,
 .wpforms-field-select:after{
     content: "\f107";
     font-family:"Font Awesome 5 Free";

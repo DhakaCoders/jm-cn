@@ -227,7 +227,7 @@ if( $('.wpforms-error').length ){
 }
 
 $('.wpforms-field-select select').select2();
-
+$('.select-2-cntlr').select2();
 
 var windowWidth = $(window).width();
 var containerWidth = $('.container').width();
