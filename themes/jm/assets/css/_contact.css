@@ -446,6 +446,12 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     max-width: 100%!important;
     width: 100%;
 }
+.select2-results__options .select2-results__option--disabled{
+    color: #fff;
+}
+.contact-form-wrp .wpforms-container-full{
+    margin-bottom: 0;
+}
 /*select-2*/
 
 
