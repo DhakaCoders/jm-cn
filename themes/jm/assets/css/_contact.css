@@ -454,14 +454,13 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 }
 .select2-results__options .select2-results__option--disabled{
     color: #fff;
-    font-size: 14px;
 }
 .contact-form-wrp .wpforms-container-full{
     margin-bottom: 0;
 }
-/*.select2-container--open .selection .select2-selection--single .select2-selection__rendered{
+.select2-container--open .selection .select2-selection--single .select2-selection__rendered{
     border-color: #282526!important;
-}*/
+}
 .wpforms-has-error .select2-container .selection .select2-selection--single .select2-selection__rendered{
     border-color: #D61D1D!important;
     color: #D61D1D!important;
