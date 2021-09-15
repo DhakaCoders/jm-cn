@@ -310,7 +310,7 @@ ol li::before {
 
 
 .jm-con-sec{
-	padding: 50px 0;
+	padding: 50px 0 100px;
 }
 
 
@@ -343,7 +343,7 @@ ol li::before {
 		padding-bottom: 30px;
 	}
 	.jm-con-sec {
-	    padding: 40px 0;
+	    padding: 40px 0 80px;
 	}
 	.default-page-con ol li::before, ol li::before{
 		font-size: 16px;
@@ -367,6 +367,9 @@ ol li::before {
 	}
 	.default-page-con ol li::before, ol li::before{
 		font-size: 15px;
+	}
+	.jm-con-sec {
+	    padding: 40px 0 70px;
 	}
 }
 @media(max-width: 575px){
