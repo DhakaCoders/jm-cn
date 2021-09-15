@@ -114,7 +114,7 @@ function cbv_breadcrumbs() {
       }
 
     // custom post type
-    } elseif ( !is_single() && !is_page() && get_post_type() != 'post' && !is_404() ) {
+    } elseif ( !is_single() && !is_page() && get_post_type() != 'post' && !is_404() && !is_tax() ) {
       $post_type = get_post_type_object(get_post_type());
       if ( get_query_var('paged') ) {
         echo $sep . sprintf($link, get_post_type_archive_link($post_type->name), $post_type->label) . $sep . $before . sprintf($text['page'], get_query_var('paged')) . $after;
@@ -163,6 +163,17 @@ function cbv_breadcrumbs() {
         echo $sep . sprintf($link, get_tag_link($tag_id), $tag->name) . $sep . $before . sprintf($text['page'], get_query_var('paged')) . $after;
       } else {
         if ($show_current) echo $sep . $before . sprintf($text['tag'], single_tag_title('', false)) . $after;
+      }
+
+    }elseif ( is_tax() ) {
+
+      $post_type = get_post_type_object(get_post_type());
+      if ( get_query_var('paged') ) {
+        echo $sep . sprintf($link, get_post_type_archive_link($post_type->name), $post_type->label) . $sep . $before . sprintf($text['page'], get_query_var('paged')) . $after;
+      } else {
+        $tax = get_queried_object_id();
+        //if ($show_current) echo $sep . $before . $post_type->label . $after;
+        echo $sep . sprintf($link, get_post_type_archive_link($post_type->name), $post_type->label) . $sep . $before . $tax->name . $after;
       }
 
     } elseif ( is_author() ) {

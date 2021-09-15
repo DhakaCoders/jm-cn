@@ -5,6 +5,7 @@
   }else{
     $logo_tag = '';
   }
+  $smedias = get_field('socialinfo', 'options');
   $copyright_text = get_field('copyright_text', 'options');
 ?>
 <footer class="footer-wrp">
