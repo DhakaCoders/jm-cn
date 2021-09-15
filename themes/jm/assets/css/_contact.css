@@ -458,7 +458,13 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 .select2-container--open .selection .select2-selection--single .select2-selection__rendered{
     border-color: #282526!important;
 }
-
+.wpforms-has-error .select2-container .selection .select2-selection--single .select2-selection__rendered{
+    border-color: #D61D1D!important;
+    color: #D61D1D!important;
+}
+.wpforms-field-select.wpforms-has-error:after{
+    color: #D61D1D!important;
+}
 /*select-2*/
 
 
