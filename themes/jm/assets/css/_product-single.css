@@ -255,9 +255,7 @@
 	    max-width: 30px;
 	}
 }
-@media(max-width: 575px){
 
-}
 @media(max-width: 479px){
 	.jm-pro-single-lft-download a{
 		padding: 22px 20px 22px 70px;
