@@ -67,9 +67,7 @@
 	margin: 7px 0!important;
 }
 
-.hmBnrSlider.slick-slider ul.slick-dots li:last-child{
-	margin: 0!important;
-}
+
 .hm-bnr-slider-item{
 	display: flex;
 	align-items: center;
