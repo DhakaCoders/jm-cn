@@ -120,9 +120,9 @@
 	/*top: 0%;*/
 	right: 0;
 }
-.jm-welcome-rgt-img{
+/*.jm-welcome-rgt-img{
 	height: 500px;
-}
+}*/
 
 .jm-welcome-title{
 	margin-bottom: 10px;
@@ -140,6 +140,11 @@
 }
 .jm-welcome-lft-des p{
 	font-weight: 300;
+}
+
+.jm-welcome-lft-des{
+	padding-bottom: 1px;
+	min-height: 500px;
 }
 
 
@@ -244,6 +249,10 @@
 	.jm-welcome-rgt-img {
 	    height: 400px;
 	}
+	.jm-pro-grds{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 @media(max-width: 991px){
 	.jm-pro-grd-sec {
@@ -326,11 +335,11 @@
 	    padding: 40px 0 40px;
 	}
 	.jm-welcome-rgt-img {
-	    height: 370px;
+	    height: 370px!important;
 	}
 }
 @media(max-width: 479px){
 	.jm-welcome-rgt-img {
-	    height: 350px;
+	    height: 350px!important;
 	}
 }

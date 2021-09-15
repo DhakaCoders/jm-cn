@@ -79,7 +79,7 @@ ul li::before {
 	height: 10px;
 	background: #f85700;
 	border-radius: 100%;
-	margin-top: 10px;
+	margin-top: 9px;
 }
 ul li.refGridItem:before{
 	display: none;
@@ -292,7 +292,7 @@ ol li::before {
 .sec-entry-hdr-title{
 	text-align: center;
 	text-transform: uppercase;
-	padding-bottom: 35px;
+	padding-bottom: 33px;
 	position: relative;
 }
 .sec-entry-hdr-title:after{
@@ -310,7 +310,7 @@ ol li::before {
 
 
 .jm-con-sec{
-	padding: 50px 0;
+	padding: 50px 0 100px;
 }
 
 
@@ -332,9 +332,7 @@ ol li::before {
 		font-size: 18px;
 	}
 }
-@media(max-width: 1199px){
 
-}
 @media(max-width: 991px){
 	.sec-entry-hdr {
 	    padding-bottom: 40px;
@@ -343,7 +341,7 @@ ol li::before {
 		padding-bottom: 30px;
 	}
 	.jm-con-sec {
-	    padding: 40px 0;
+	    padding: 40px 0 80px;
 	}
 	.default-page-con ol li::before, ol li::before{
 		font-size: 16px;
@@ -368,7 +366,7 @@ ol li::before {
 	.default-page-con ol li::before, ol li::before{
 		font-size: 15px;
 	}
-}
-@media(max-width: 575px){
-
+	.jm-con-sec {
+	    padding: 40px 0 70px;
+	}
 }
