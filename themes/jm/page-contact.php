@@ -22,7 +22,7 @@ $email = get_field('emailaddres', 'options');
     <div class="row">
       <div class="col-md-12">
         <div class="sec-entry-hdr">
-          <h2 class="sec-entry-hdr-title fl-h1"><?php echo $page_title; ?>/h2>
+          <h2 class="sec-entry-hdr-title fl-h1"><?php echo $page_title; ?></h2>
         </div>
         <div class="contect-form-block clearfix">
           <div class="contact-form-lft mHc">

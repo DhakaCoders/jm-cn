@@ -165,15 +165,16 @@ function cbv_breadcrumbs() {
         if ($show_current) echo $sep . $before . sprintf($text['tag'], single_tag_title('', false)) . $after;
       }
 
-    }elseif ( is_tax() ) {
+    }elseif ( is_tax('brand') ) {
 
       $post_type = get_post_type_object(get_post_type());
       if ( get_query_var('paged') ) {
         echo $sep . sprintf($link, get_post_type_archive_link($post_type->name), $post_type->label) . $sep . $before . sprintf($text['page'], get_query_var('paged')) . $after;
       } else {
-        $tax = get_queried_object_id();
+        $term = get_queried_object_id();
+        var_dump($term);
         //if ($show_current) echo $sep . $before . $post_type->label . $after;
-        echo $sep . sprintf($link, get_post_type_archive_link($post_type->name), $post_type->label) . $sep . $before . $tax->name . $after;
+        echo $sep. $before .'<a href="'.home_url('products').'">'.$post_type->label.'</a>'. $after. $sep ;
       }
 
     } elseif ( is_author() ) {
