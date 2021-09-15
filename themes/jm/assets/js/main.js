@@ -1,8 +1,5 @@
 (function($) {
 
-/*Google Map Style*/
-var CustomMapStyles  = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
-
 var windowWidth = $(window).width();
 $('.navbar-toggle').on('click', function(){
 	$('#mobile-nav').slideToggle(300);
@@ -145,64 +142,6 @@ if( $('.responsive-slider').length ){
 }
 
 
-var swiper = new Swiper('.catagorySlider', {
-    slidesPerView: 1,
-    loop: true,
-    navigation: {
-      nextEl: '.catagorySlider-arrows .swiper-button-next',
-      prevEl: '.catagorySlider-arrows .swiper-button-prev',
-    },
-    breakpoints: {
-       639: {
-        slidesPerView: 2,
-        spaceBetween: 0,
-      },
-      991: {
-        slidesPerView: 3,
-        spaceBetween: 0,
-      },
-      1199: {
-        loop: false,
-        slidesPerView: 4,
-        spaceBetween: 0,
-      },
-      1920: {
-        loop: false,
-        slidesPerView: 4,
-        spaceBetween: 0,
-      },
-    }
-  });
-
-if( $('#mapID').length ){
-var latitude = $('#mapID').data('latitude');
-var longitude = $('#mapID').data('longitude');
-
-var myCenter= new google.maps.LatLng(latitude,  longitude);
-function initialize(){
-    var mapProp = {
-      center:myCenter,
-      mapTypeControl:true,
-      scrollwheel: false,
-      zoomControl: true,
-      disableDefaultUI: true,
-      zoom:7,
-      streetViewControl: false,
-      rotateControl: true,
-      mapTypeId:google.maps.MapTypeId.ROADMAP,
-      styles: CustomMapStyles
-      };
-
-    var map= new google.maps.Map(document.getElementById('mapID'),mapProp);
-    var marker= new google.maps.Marker({
-      position:myCenter,
-        //icon:'map-marker.png'
-      });
-    marker.setMap(map);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-
-}
 
 
 
@@ -226,53 +165,53 @@ google.maps.event.addDomListener(window, 'load', initialize);
 })();
 
 
-  //Hidden Bar Menu Config
-  function hiddenBarMenuConfig() {
-    var menuWrap = $('.hidden-bar .side-menu');
-    // appending expander button
-    menuWrap.find('.dropdown').children('a').append(function () {
-      return '<button type="button" class="btn expander"><i class="icon fa fa-angle-down"></i></button>';
+//Hidden Bar Menu Config
+function hiddenBarMenuConfig() {
+  var menuWrap = $('.hidden-bar .side-menu');
+  // appending expander button
+  menuWrap.find('.dropdown').children('a').append(function () {
+    return '<button type="button" class="btn expander"><i class="icon fa fa-angle-down"></i></button>';
+  });
+  // hidding submenu
+  menuWrap.find('.dropdown').children('ul').hide();
+  // toggling child ul
+  menuWrap.find('.btn.expander').each(function () {
+    $(this).on('click', function () {
+      $(this).parent() // return parent of .btn.expander (a)
+        .parent() // return parent of a (li)
+          .children('ul').slideToggle();
+
+      // adding class to expander container
+      $(this).parent().toggleClass('current');
+      // toggling arrow of expander
+      $(this).find('i').toggleClass('fa-angle-up fa-angle-down');
+
+      return false;
+
     });
-    // hidding submenu
-    menuWrap.find('.dropdown').children('ul').hide();
-    // toggling child ul
-    menuWrap.find('.btn.expander').each(function () {
-      $(this).on('click', function () {
-        $(this).parent() // return parent of .btn.expander (a)
-          .parent() // return parent of a (li)
-            .children('ul').slideToggle();
+  });
+}
 
-        // adding class to expander container
-        $(this).parent().toggleClass('current');
-        // toggling arrow of expander
-        $(this).find('i').toggleClass('fa-angle-up fa-angle-down');
+hiddenBarMenuConfig();
 
-        return false;
 
-      });
+//Custom Scroll for Hidden Sidebar
+if ($('.hidden-bar-wrapper').length) {
+  
+  $('.hidden-bar-closer,.menu-backdrop').on('click', function () {
+    $('.hidden-bar,body').removeClass('visible-sidebar');
+  });
+  $(document).keydown(function(e){
+        if(e.keyCode == 27) {
+            $('.hidden-bar,body').removeClass('visible-sidebar');
+        }
     });
-  }
+  $('.hidden-bar-opener').on('click', function () {
+    $('.hidden-bar,body').addClass('visible-sidebar');
+  });
+}
 
-  hiddenBarMenuConfig();
 
-
-  //Custom Scroll for Hidden Sidebar
-  if ($('.hidden-bar-wrapper').length) {
-    
-    $('.hidden-bar-closer,.menu-backdrop').on('click', function () {
-      $('.hidden-bar,body').removeClass('visible-sidebar');
-    });
-    $(document).keydown(function(e){
-          if(e.keyCode == 27) {
-              $('.hidden-bar,body').removeClass('visible-sidebar');
-          }
-      });
-    $('.hidden-bar-opener').on('click', function () {
-      $('.hidden-bar,body').addClass('visible-sidebar');
-    });
-  }
-
-/*start of Kashob*/
 if( $('.contact-form-wrp').length ){
   $('.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button').on('click', function(){
     $('.wpforms-field input[required],.wpforms-field select[required]').parents('.wpforms-field').addClass('wpforms-has-error');
@@ -289,7 +228,6 @@ if( $('.wpforms-error').length ){
 
 $('.select-2-cntlr').select2();
 
-/*start of Shariful*/
 
 var windowWidth = $(window).width();
 var containerWidth = $('.container').width();
@@ -310,21 +248,18 @@ $(window).resize(function(){
 });
 
 
-
-/*start of Noyon*/
-  if( $('.hmBnrSlider').length ){
-    $('.hmBnrSlider').slick({
-      dots: true,
-      infinite: false,
-      autoplay: false,
-      arrows: false,
-      autoplaySpeed: 4000,
-      speed: 700,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    });
+if( $('.hmBnrSlider').length ){
+  $('.hmBnrSlider').slick({
+    dots: true,
+    infinite: false,
+    autoplay: false,
+    arrows: false,
+    autoplaySpeed: 4000,
+    speed: 700,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  });
 }
 
-    new WOW().init();
 
 })(jQuery);

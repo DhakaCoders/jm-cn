@@ -18,7 +18,7 @@ a{
 	color: #f85700;
 }
 a:hover{
-	color: #f85700;
+	color: #282526;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
     font-size: 28px;
     line-height: 34px;
     font-weight: 400;
-    font-family: 'Barlow', sans-serif;
+	font-family: 'Barlow', sans-serif;
 }
 p{
 	line-height: 1.2;
