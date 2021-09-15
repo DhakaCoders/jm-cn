@@ -365,9 +365,11 @@ textarea {
 .select2-search--dropdown{
     padding: 0!important;
 }
-body .select2-container.select2-container--default.select2-container--open .select2-dropdown{
-    margin-top: 0px;
+body .select2-container.select2-container--default.select2-container--open .select2-dropdown {
+    margin-top: 0;
     box-shadow: none;
+    top: 100%;
+    margin-top: -16px;
 }
 .select2-container--default .select2-selection--single .select2-selection__arrow b,
 .select2-container--default .select2-selection--single .select2-selection__arrow{
